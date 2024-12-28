@@ -18,33 +18,65 @@ import Link from "next/link";
 const Services = () => {
   const sliderRef = useRef(null); // Ref for the slider
 
+  // const settings = {
+  //   className: "slider variable-width",
+  //   infinite: false,
+  //   speed: 500,
+  //   slidesToShow: 2,
+  //   slidesToScroll: 1,
+  //   initialSlide: 0,
+  //   variableWidth: true,
+  //   adaptiveHeight: true,
+  //   responsive: [
+  //     {
+  //       breakpoint: 600,
+  //       settings: {
+  //         slidesToShow: 2,
+  //         slidesToScroll: 1,
+  //         variableWidth: true
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 430,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1,
+  //         variableWidth: true,
+  //         infinite: true
+  //       },
+  //     },
+  //   ],
+  // };
+
   const settings = {
-    className: "slider variable-width",
     infinite: false,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToShow: 2,
+    slidesToScroll: 1,
     initialSlide: 0,
-    variableWidth: true,
-    adaptiveHeight: true,
+    variableWidth: false, // Ensure cards have equal width
+    adaptiveHeight: false, // Use fixed height for cards
     responsive: [
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToScroll: 1,
+          variableWidth: false,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 430,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          variableWidth: false,
+          infinite: false,
         },
       },
     ],
   };
+  
 
   return (
     <section className="py-10 sm:py-16 md:py-20 lg:py-24 bg-gray-100">
@@ -57,7 +89,7 @@ const Services = () => {
         {/* Cards Slider */}
         <Slider {...settings} ref={sliderRef} className="slider-container">
           {/* Card 1 */}
-          <div className="lg:w-[320px] lg:h-[422px] mx-auto rounded-lg shadow-xl p-4 text-left bg-white">
+          <div className="w-[320px] h-[422px] mx-auto rounded-lg shadow-xl p-4 text-left bg-white">
             <div className="mb-4">
               {/* Icon */}
               <div className="bg-white shadow-xl w-12 h-12 flex justify-center items-center rounded-lg">

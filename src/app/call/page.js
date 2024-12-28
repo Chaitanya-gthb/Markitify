@@ -16,7 +16,7 @@ const ScheduleCall = () => {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto backdrop-opacity-10 mt-24 bg-[linear-gradient(to_right,#80808012_3px,transparent_6px),linear-gradient(to_bottom,#80808012_3px,transparent_6px)] bg-[size:66px_66px] bg-cover bg-center">
+      <div className="container p-2 mx-auto backdrop-opacity-10 mt-24 bg-[linear-gradient(to_right,#80808012_3px,transparent_6px),linear-gradient(to_bottom,#80808012_3px,transparent_6px)] bg-[size:66px_66px] bg-cover bg-center">
         <div className="flex lg:flex-row lg:w-full pt-16 lg:justify-between lg:items-center flex-col w-full items-center lg:text-left text-center">
           {/* Heading Section */}
           <div className="mb-8 lg:mb-0">
@@ -44,7 +44,7 @@ const ScheduleCall = () => {
         </div>
       </div>
 
-      <div className="container mx-auto bg-[#F2F2F2] shadow-2xl mt-44 lg:w-[1218px] h-auto rounded-2xl flex items-center justify-evenly flex-col lg:flex-row">
+      <div className="container p-4 mx-auto bg-[#F2F2F2] shadow-2xl mt-20 lg:w-[1218px] h-auto rounded-2xl flex items-center justify-evenly flex-col lg:flex-row">
 
         <div className="w-full lg:w-[590px] h-auto bg-[#1F1F1F] rounded-3xl p-6 sm:p-8 mx-4 sm:mx-6 lg:mx-0">
           <div className="flex items-center mt-8 ml-4 gap-4">
@@ -163,8 +163,8 @@ const ScheduleCall = () => {
       </div>
 
       {/* Marketing Text */}
-      <div className="lg:w-[1040px] lg:h-[112px] container mx-auto mt-40 text-center tracking-wider leading-6">
-        <p className="text-[12px] font-medium text-[#4A4A4A]">
+      <div className="lg:w-[1040px] lg:h-[112px] container mx-auto mt-20 text-center tracking-wider leading-6">
+        <p className="text-[16px] font-medium text-[#4A4A4A] p-6">
           Marketing is the backbone of any successful business, bridging the gap
           between a brand and its audience. It creates awareness, builds trust,
           and drives engagement, ensuring your products or services reach the
@@ -174,7 +174,7 @@ const ScheduleCall = () => {
       </div>
 
 
-      <div className="lg:mt-36  mt-60 mb-44 container mx-auto text-center flex flex-col items-center">
+      <div className="lg:mt-36  mt-40 mb-16 container mx-auto text-center flex flex-col items-center">
         <h1 className="text-2xl lg:text-3xl font-bold text-[#4A4A4A] mb-10">
           Take off in just 4 steps
         </h1>

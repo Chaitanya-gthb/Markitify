@@ -53,7 +53,7 @@ const DesignPage = () => {
       </div>
 
       <div className="container mx-auto  h-[584px] lg:w-[1341px] mt-56 flex lg:flex-row lg:justify-center lg:gap-10 flex-col gap-12">
-        <div className="w-[343px] h-[480px]  bg-white shadow-2xl rounded-xl p-6 mx-auto">
+        <div className="w-[343px] h-[510px]  bg-white shadow-2xl rounded-xl p-6 mx-auto">
           {/* Icon Section */}
           <div className="flex justify-start mb-4 ">
             <div className="bg-gray-100 p-2 rounded-xl shadow-2xl">
@@ -131,7 +131,7 @@ const DesignPage = () => {
           </ul>
         </div>
 
-        <div className="w-[343px] h-[480px] mx-auto   bg-white shadow-2xl rounded-xl p-6 ">
+        <div className="w-[343px] h-[510px] mx-auto   bg-white shadow-2xl rounded-xl p-6 ">
           {/* Icon Section */}
           <div className="flex justify-start mb-4 ">
             <div className="bg-gray-100 p-2 shadow-2xl rounded-xl">
@@ -197,7 +197,7 @@ const DesignPage = () => {
       </div> */}
 
       <div className="lg:mt-56 mt-[1050px] container mx-auto text-center flex flex-col items-center h-auto lg:h-[500px]">
-        <h1 className="text-3xl font-bold text-[#4A4A4A] mb-10">
+        <h1 className="text-3xl font-bold text-[#4A4A4A] mb-10 mt-24">
           What you will get
         </h1>
         <div className="w-full lg:w-[615px] flex flex-col">
@@ -237,7 +237,7 @@ const DesignPage = () => {
         </div>
       </div>
 
-      <div className="lg:mt-16 mt-60 mb-44 container mx-auto text-center flex flex-col items-center">
+      <div className="lg:mt-16 mt-40 mb-16 container mx-auto text-center flex flex-col items-center">
         <h1 className="text-2xl lg:text-3xl font-bold text-[#4A4A4A] mb-10">
           Take off in just 4 steps
         </h1>

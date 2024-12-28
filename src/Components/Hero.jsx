@@ -1,5 +1,4 @@
 import React from "react";
-
 import hero from "@/app/hero.jpg";
 import herobg from "@/app/herobg.jpg";
 import Image from "next/image";
@@ -8,7 +7,7 @@ const Hero = () => {
   return (
     <div>
       <section
-        className="mt-16 py-10 sm:py-16 md:py-20 lg:py-24 bg-cover bg-center"
+        className="mt-24 py-10 sm:py-16 md:py-20 lg:py-24 bg-cover bg-center"
         style={{
           backgroundImage: `url(${herobg.src})`,
         }}
