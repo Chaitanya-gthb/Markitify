@@ -32,7 +32,7 @@ const SocialPage = () => {
           </div>
 
           {/* Image Section */}
-          <div className="h-[300px] sm:h-[343px] w-[300px] sm:w-[343px] lg:w-[663px] lg:h-[663px]  mt-96">
+          <div className="h-[300px] sm:h-[343px] w-[300px] sm:w-[343px] lg:w-[663px] lg:h-[663px]">
             <Image
               src={design}
               alt="logo"
@@ -44,7 +44,7 @@ const SocialPage = () => {
         </div>
       </div>
 
-      <div className="container mx-auto  h-[584px] lg:w-[1341px] mt-56 flex lg:flex-row lg:justify-center lg:gap-10 flex-col gap-12">
+      <div className="container mx-auto  h-[584px] lg:w-[1341px] mt-48 flex lg:flex-row lg:justify-center lg:gap-10 flex-col gap-12">
         <div className="w-[343px] h-[452px]  bg-gradient-to-b from-[#000000] to-[#393939] text-white  shadow-2xl rounded-xl p-6 mx-auto">
           {/* Icon Section */}
           <div className="flex justify-start mb-4 ">
@@ -89,7 +89,7 @@ const SocialPage = () => {
           </ul>
         </div>
 
-        <div className="lg:w-[440px] lg:h-[580px] w-[343px] h-[480px]  scale-100 mx-auto   bg-gradient-to-b from-[#000000] to-[#393939] text-white  shadow-2xl rounded-xl p-6 font-sans">
+        <div className="lg:w-[440px] lg:h-[580px] w-[343px] h-[540px]  scale-100 mx-auto   bg-gradient-to-b from-[#000000] to-[#393939] text-white  shadow-2xl rounded-xl p-6 font-sans">
           {/* Icon Section */}
           <div className="flex justify-start mb-4 ">
             <div className="bg-[#5A5A5A] p-3 rounded-full">
@@ -180,15 +180,15 @@ const SocialPage = () => {
         </div>
       </div>
 
-      <div className="lg:w-[924px] lg:h-[46px] container mx-auto mt-40 text-center tracking-wide">
-        <p className="text-[12px] font-medium">
+      <div className="lg:w-[924px] lg:h-[46px] container mx-auto mt-32 text-center tracking-wide">
+        <p className="text-[12px] font-medium lg:mt-0 mt-[1030px]">
           Boost your brand’s social media with Markitify's expert management
           services. Engage audiences, drive growth, and achieve measurable
           results. Get started today!"
         </p>
       </div>
 
-      <div className="lg:mt-56 mt-[1050px] container mx-auto text-center flex flex-col items-center h-auto lg:h-[500px]">
+      <div className="lg:mt-56 mt-40 container mx-auto text-center flex flex-col items-center h-auto lg:h-[500px]">
         <h1 className="text-3xl font-bold text-[#4A4A4A] mb-10">
           What you will get
         </h1>
@@ -229,8 +229,8 @@ const SocialPage = () => {
         </div>
       </div>
 
-      <div className="lg:mt-16 mt-60 mb-44 container mx-auto text-center flex flex-col items-center">
-        <h1 className="text-2xl lg:text-3xl font-bold text-[#4A4A4A] mb-10">
+      <div className="lg:mt-16 mt-40 mb-10 container mx-auto text-center flex flex-col items-center">
+        <h1 className="text-2xl lg:text-3xl font-bold text-[#4A4A4A] mb-6">
           Take off in just 4 steps
         </h1>
         <div className="lg:flex lg:flex-row lg:gap-8 flex flex-col gap-6 lg:w-[1183px] w-full lg:h-auto lg:rounded-2xl border-y-4 border-x-4 border-dashed p-6 sm:p-12 justify-center items-center">
