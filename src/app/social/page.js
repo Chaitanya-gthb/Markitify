@@ -181,7 +181,7 @@ const SocialPage = () => {
       </div>
 
       <div className="lg:w-[924px] lg:h-[46px] container mx-auto mt-32 text-center tracking-wide">
-        <p className="text-[12px] font-medium lg:mt-0 mt-[1030px]">
+        <p className="lg:text-[13px] text-[15px] font-medium lg:mt-0 mt-[1030px] p-8">
           Boost your brand’s social media with Markitify's expert management
           services. Engage audiences, drive growth, and achieve measurable
           results. Get started today!"

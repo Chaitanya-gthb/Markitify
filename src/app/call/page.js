@@ -164,7 +164,7 @@ const ScheduleCall = () => {
 
       {/* Marketing Text */}
       <div className="lg:w-[1040px] lg:h-[112px] container mx-auto mt-20 text-center tracking-wider leading-6">
-        <p className="text-[16px] font-medium text-[#4A4A4A] p-6">
+        <p className="lg:text-[13px] text-[15px] font-medium text-[#4A4A4A] p-8">
           Marketing is the backbone of any successful business, bridging the gap
           between a brand and its audience. It creates awareness, builds trust,
           and drives engagement, ensuring your products or services reach the

@@ -115,14 +115,14 @@ const Production = () => {
       </div>
 
       <div className="lg:w-[937px] lg:h-[46px] w-fit h-fit container mx-auto lg:mt-10 text-center tracking-wide">
-        <p className="lg:text-[13px] text-[20px] font-medium relative lg:top-[0px] top-[700px] lg:w-full w-[300px]">
+        <p className="lg:text-[13px] text-[15px] font-medium relative lg:top-[0px] top-[680px] lg:w-full w-[300px]">
           Discover Markitify’s expert post-production services, specializing in
           stunning graphic design and professional video editing. Elevate your
           brand with captivating visuals and impactful videos. Contact us today!
         </p>
       </div>
 
-      <div className="lg:mt-32 mt-[900px] container mx-auto text-center flex flex-col items-center h-auto lg:h-[360px] ">
+      <div className="lg:mt-32 mt-[860px] container mx-auto text-center flex flex-col items-center h-auto lg:h-[360px] ">
         <h1 className="text-[14px] font-bold text-[#4A4A4A] mb-10">
           What you will get
         </h1>
