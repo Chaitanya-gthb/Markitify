@@ -177,7 +177,7 @@ const Testimonials = () => {
         </div>
 
         {/* Right Section with Horizontal Scrolling */}
-        <div className="flex justify-center items-center  overflow-x-hidden  mt-10  space-x-6 lg:p-2 rounded-2xl p-7 bg-transparent">
+        <div className="flex justify-center items-center overflow-x-hidden mt-10 space-x-6 lg:p-2 rounded-2xl p-7 bg-transparent">
           {/* Testimonial Card */}
           <Swiper
             slidesPerView={3}
@@ -205,7 +205,7 @@ const Testimonials = () => {
             {Array(8)
               .fill(null)
               .map((_, index) => (
-                <SwiperSlide key={index}>
+                <SwiperSlide key={index} className="lg:pr-[290px] pr-0">
                   <div className="flex-shrink-0 relative lg:w-[287px] lg:h-[305px] drop-shadow-xl  bg-white shadow-2xl rounded-xl p-8 my-4 mx-4">
                     {/* Quote Text */}
                     <p className="text-[#263238] lg:text-[12px] text-[10px] lg:mt-3  font-medium leading-relaxed tracking-wider lg:h-[140px] lg:w-[228px]">

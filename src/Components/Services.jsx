@@ -58,7 +58,7 @@ const Services = () => {
     adaptiveHeight: false, // Use fixed height for cards
     responsive: [
       {
-        breakpoint: 600,
+        breakpoint: 640,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -89,7 +89,7 @@ const Services = () => {
         {/* Cards Slider */}
         <Slider {...settings} ref={sliderRef} className="slider-container">
           {/* Card 1 */}
-          <div className="w-[320px] h-[422px] mx-auto rounded-lg shadow-xl p-4 text-left bg-white">
+          <div className="lg:w-[340px] lg:h-[430px] w-full h-full mx-auto rounded-lg shadow-xl lg:px-8 lg:py-4 p-2 text-left bg-white">
             <div className="mb-4">
               {/* Icon */}
               <div className="bg-white shadow-xl w-12 h-12 flex justify-center items-center rounded-lg">
@@ -118,14 +118,14 @@ const Services = () => {
 
           {/* Add more cards similarly */}
           {/* Card 2 */}
-          <div className="lg:w-[320px] lg:h-[422px]  bg-white rounded-lg shadow-xl p-4 text-left">
+          <div className="lg:w-[340px] lg:h-[430px] w-full h-full mx-auto bg-white rounded-lg shadow-xl lg:px-8 lg:py-4 p-2 text-left">
             <div className="mb-4">
               <div className="bg-white shadow-xl w-12 h-12 flex justify-center items-center rounded-lg">
                 <Image src={code} width={29} height={29} alt="code" />
               </div>
             </div>
             <h3 className="text-2xl font-bold text-gray-800 mb-4">
-              Design and Development
+              Design & Development
             </h3>
             <p className="text-gray-800 text-sm mb-2">
               Building brands that go beyond the ordinary, powered by innovation
@@ -144,7 +144,7 @@ const Services = () => {
             </ul>
           </div>
 
-          <div className="lg:w-[320px] lg:h-[422px]  mx-auto bg-white rounded-lg shadow-lg p-4 text-left">
+          <div className="lg:w-[340px] lg:h-[430px] w-full h-full mx-auto bg-white rounded-lg shadow-lg lg:px-8 lg:py-4 p-2 text-left">
             <div className="mb-4">
               <div className="bg-white shadow-xl w-12 h-12 flex justify-center items-center rounded-lg">
                 <Image src={board} width={29} height={29} alt="code" />
@@ -166,63 +166,6 @@ const Services = () => {
               <li className="mt-2">Youtube</li>
               <li className="mt-2">Instagram 360</li>
               <li className="mt-2">Linkedin</li>
-            </ul>
-          </div>
-
-          <div className="lg:w-[320px] lg:h-[422px]  mx-auto bg-white rounded-lg shadow-lg p-4 text-left">
-            <div className="mb-4">
-              <div className="bg-white shadow-xl w-12 h-12 flex justify-center items-center rounded-lg">
-                <Image src={ad} width={29} height={29} alt="code" />
-              </div>
-            </div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-4">
-              Brand Identity
-            </h3>
-            <p className="text-gray-800 text-sm mb-2">
-              Crafting logos, guidelines, and strategies for a consistent,
-              impactful brand.
-            </p>
-
-            <p className="font-bold text-xl pl-4">
-              $249 <span className="text-base font-normal"> / one time</span>
-            </p>
-            <Link className="flex justify-center py-6" href={"#"}>
-              <button className="bg-black text-white px-24 py-2 rounded-lg text-sm font-bold mb-4 hover:bg-gray-800">
-                Let's Connect
-              </button>
-            </Link>
-            <ul className="text-black font-semibold text-base">
-              <li>Logo Design</li>
-              <li className="mt-1">Visual Identity Development</li>
-              <li className="mt-1">Brand Guidelined</li>
-              <li className="mt-1">Brand Strategy</li>
-            </ul>
-          </div>
-
-            {/* Card last */}
-          <div className="lg:w-[320px] lg:h-[422px]  mx-auto bg-white rounded-lg shadow-lg p-4 text-left">
-            <div className="mb-4">
-              <div className="bg-white shadow-xl w-12 h-12 flex justify-center items-center rounded-lg">
-                <Image src={branding} width={29} height={29} alt="code" />
-              </div>
-            </div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-4">
-              Advertisement
-            </h3>
-            <p className="text-gray-800 text-sm mb-2">
-              In addition to our core services, we offer targeted advertising
-              solutions to amplify your brand's reach.
-            </p>
-            <div className="flex justify-center py-6">
-              <button className="bg-black text-white px-24 py-2 rounded-lg text-sm font-bold mb-4 hover:bg-gray-800">
-                Let's Connect
-              </button>
-            </div>
-            <ul className="text-black font-semibold text-base">
-              <li>Meta Ads</li>
-              <li className="mt-1">Google Ads</li>
-              <li className="mt-1">Instagram Ads</li>
-              <li className="mt-1">Linkedin Ads</li>
             </ul>
           </div>
 
@@ -251,3 +194,6 @@ const Services = () => {
 };
 
 export default Services;
+
+
+
