@@ -172,29 +172,7 @@ const DesignPage = () => {
           </ul>
         </div>
       </div>
-      {/* 
-      <div className="lg:mt-56 mt-[1050px] container mx-auto  text-center flex flex-col items-center h-[500px]">
-        <h1 className="text-3xl font-bold text-[#4A4A4A] mb-10">
-          What you will get
-        </h1>
-        <div className="w-[615px] h-[145px] flex flex-col">
-          <div className="flex gap-6 justify-center">
-            <div className="lg:text-[14px] font-semibold bg-[#F2F2F2] px-6 py-1 border-2 border-dashed rounded-lg">Improved UI</div>
-            <div className="lg:text-[14px] font-semibold bg-[#F2F2F2] px-6 py-1 border-2 border-dashed rounded-lg">Consulting</div>
-            <div className="lg:text-[14px] font-semibold bg-[#F2F2F2] px-6 py-1 border-2 border-dashed rounded-lg">CMS</div>
-          </div>
-          <div className="flex gap-6 justify-center mt-4">
-          <div className="lg:text-[14px] font-semibold bg-[#F2F2F2] px-6 py-1 border-2 border-dashed rounded-lg">High Conversion rate</div>
-            <div className="lg:text-[14px] font-semibold bg-[#F2F2F2] px-6 py-1 border-2 border-dashed rounded-lg">Improved UX </div>
-            <div className="lg:text-[14px] font-semibold bg-[#F2F2F2] px-6 py-1 border-2 border-dashed rounded-lg">Conversion Rate Optimization</div>
-          </div>
-          <div className="flex gap-6 justify-center mt-4">
-          <div className="lg:text-[14px] font-semibold bg-[#F2F2F2] px-6 py-1 border-2 border-dashed rounded-lg">Responsive design</div>
-            <div className="lg:text-[14px] font-semibold bg-[#F2F2F2] px-6 py-1 border-2 border-dashed rounded-lg">Figma Design</div>
-            <div className="lg:text-[14px] font-semibold bg-[#F2F2F2] px-6 py-1 border-2 border-dashed rounded-lg">Backend</div>
-          </div>
-        </div>
-      </div> */}
+      
 
       <div className="lg:mt-56 mt-[1050px] container mx-auto text-center flex flex-col items-center h-auto lg:h-[500px]">
         <h1 className="text-3xl font-bold text-[#4A4A4A] mb-10 mt-24">

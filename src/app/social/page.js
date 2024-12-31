@@ -49,20 +49,11 @@ const SocialPage = () => {
           {/* Icon Section */}
           <div className="flex justify-start mb-4 ">
             <div className="bg-gray-100 p-3 rounded-full">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={2}
-                stroke="currentColor"
-                className="w-6 h-6 text-black"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                />
-              </svg>
+            <img
+                src="https://th.bing.com/th/id/OIP.gp8r8kzo5Lb6TdMni6XwJwHaHw?rs=1&pid=ImgDetMain"
+                alt="Instagram Icon"
+                className="object-contain w-6 h-6"
+              />
             </div>
           </div>
 
@@ -93,20 +84,12 @@ const SocialPage = () => {
           {/* Icon Section */}
           <div className="flex justify-start mb-4 ">
             <div className="bg-[#5A5A5A] p-3 rounded-full">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={2}
-                stroke="currentColor"
-                className="w-6 h-6 text-black"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                />
-              </svg>
+              
+              <img
+                src="https://imagedelivery.net/5MYSbk45M80qAwecrlKzdQ/fd62f9be-08cd-472f-e917-54e0ff9d8600/public"
+                alt="Youtube Icon"
+                className="object-contain w-6 h-6"
+              />
             </div>
           </div>
 
@@ -139,20 +122,13 @@ const SocialPage = () => {
           {/* Icon Section */}
           <div className="flex justify-start mb-4 ">
             <div className="bg-gray-100 p-3 rounded-full">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={2}
-                stroke="currentColor"
-                className="w-6 h-6 text-black"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                />
-              </svg>
+              
+                <img
+                src="https://i.pinimg.com/originals/30/ea/3a/30ea3a4c97094c2ba04d581ef5107866.jpg"
+                alt="Linkedin Icon"
+                className="object-cover w-6 h-6"
+              />
+              
             </div>
           </div>
 

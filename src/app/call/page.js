@@ -16,7 +16,7 @@ const ScheduleCall = () => {
   return (
     <>
       <Navbar />
-      <div className="container p-2 mx-auto backdrop-opacity-10 mt-24 bg-[linear-gradient(to_right,#80808012_3px,transparent_6px),linear-gradient(to_bottom,#80808012_3px,transparent_6px)] bg-[size:66px_66px] bg-cover bg-center">
+      <div className="container p-2 mx-auto backdrop-opacity-10 mt-24 bg-[linear-gradient(to_right,#80808012_3px,transparent_6px),linear-gradient(to_bottom,#80808012_3px,transparent_6px)] bg-[size:66px_66px] bg-center">
         <div className="flex lg:flex-row lg:w-full pt-16 lg:justify-between lg:items-center flex-col w-full items-center lg:text-left text-center">
           {/* Heading Section */}
           <div className="mb-8 lg:mb-0">

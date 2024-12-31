@@ -21,7 +21,6 @@ export default function Home() {
        <Companies />
        <Testimonials />
        <Portfolio />
-
        <ContactandFAQ />
        <Footer />
        {/* <Timepass />  */}

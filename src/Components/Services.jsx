@@ -18,36 +18,6 @@ import Link from "next/link";
 const Services = () => {
   const sliderRef = useRef(null); // Ref for the slider
 
-  // const settings = {
-  //   className: "slider variable-width",
-  //   infinite: false,
-  //   speed: 500,
-  //   slidesToShow: 2,
-  //   slidesToScroll: 1,
-  //   initialSlide: 0,
-  //   variableWidth: true,
-  //   adaptiveHeight: true,
-  //   responsive: [
-  //     {
-  //       breakpoint: 600,
-  //       settings: {
-  //         slidesToShow: 2,
-  //         slidesToScroll: 1,
-  //         variableWidth: true
-  //       },
-  //     },
-  //     {
-  //       breakpoint: 430,
-  //       settings: {
-  //         slidesToShow: 1,
-  //         slidesToScroll: 1,
-  //         variableWidth: true,
-  //         infinite: true
-  //       },
-  //     },
-  //   ],
-  // };
-
   const settings = {
     infinite: false,
     speed: 500,
