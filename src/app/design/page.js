@@ -8,7 +8,7 @@ import call from "@/app/discall.png";
 import sign from "@/app/signature.png";
 import paper from "@/app/paper.png";
 import elements from "@/app/elements.png";
-
+import Frame from "../../../public/Frame.png"
 import code from '@/app/code.png'
 import layer from '@/app/layer.png'
 import shuttle from '@/app/shuttle.png'
@@ -19,20 +19,28 @@ import shuttle from '@/app/shuttle.png'
 import Footer from "@/Components/Footer";
 
 const DesignPage = () => {
+const bgStyle = {
+    backgroundImage: `url(${Frame.src})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    height: "700px",
+    width: "100%",
+  };
+
   return (
     <div className="overflow-hidden">
       <Navbar />
      
 
-      <div className="container mx-auto backdrop-opacity-10 h-[584px] w-full lg:w-[1341px] mt-24 bg-[linear-gradient(to_right,#80808012_3px,transparent_6px),linear-gradient(to_bottom,#80808012_3px,transparent_6px)] bg-[size:66px_66px]">
+      <div className="container mx-auto backdrop-opacity-10 h-[584px] w-full lg:w-[1341px] mt-12" style={bgStyle}>
         <div className="flex lg:flex-row lg:w-full pt-16 lg:justify-between lg:items-center flex-col w-full items-center lg:text-left text-center">
           {/* Heading Section */}
           <div className="mb-8 lg:mb-0">
-            <h1 className="text-4xl sm:text-4xl lg:text-6xl font-bold lg:w-[675px] lg:h-[219px] leading-tight lg:pl-10">
+            <h1 className="text-4xl sm:text-4xl lg:text-6xl font-medium lg:w-[675px] lg:h-[219px] leading-normal lg:pl-10">
               Where Every Pixel, <br /> Every Line, and Every
               <br /> Idea Matters
             </h1>
-            <p className="text-sm sm:text-[16px]  lg:h-[69px] lg:w-[450px] lg:mt-8  font-medium mt-4 mx-4">
+            <p className="text-sm sm:text-[16px]  lg:h-[69px] lg:w-[450px] lg:mt-2 ml-10 font-medium mt-4 mx-4">
               We create stunning designs and develop user-friendly websites that
               capture your brand’s essence and deliver exceptional user
               experiences.
@@ -46,7 +54,7 @@ const DesignPage = () => {
               alt="logo"
               width={663}
               height={663}
-              className="lg:pt-24"
+              className="lg:pt-28 relative lg:right-20"
             />
           </div>
         </div>

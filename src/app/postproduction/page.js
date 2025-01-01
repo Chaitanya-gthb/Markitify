@@ -7,25 +7,32 @@ import call from "@/app/discall.png";
 import sign from "@/app/signature.png";
 import paper from "@/app/paper.png";
 import elements from "@/app/elements.png";
-
+import Frame from "../../../public/Frame.png"
 import vector from "@/app/vector.jpg";
 import videoediting from "@/app/videoediting.jpg";
-
 import Footer from "@/Components/Footer";
 
 const Production = () => {
+  const bgStyle = {
+    backgroundImage: `url(${Frame.src})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    height: "700px",
+    width: "100%",
+  };
+
   return (
     <div>
       <Navbar />
-      <div className="container mx-auto backdrop-opacity-10 h-[584px] w-full lg:w-[1341px] mt-24 bg-[linear-gradient(to_right,#80808012_3px,transparent_6px),linear-gradient(to_bottom,#80808012_3px,transparent_6px)] bg-[size:66px_66px]">
+      <div className="container mx-auto backdrop-opacity-10 h-[584px] w-full lg:w-[1341px] mt-16" style={bgStyle}>
         <div className="flex lg:flex-row lg:w-full pt-16 lg:justify-between lg:items-center flex-col w-full items-center lg:text-left text-center">
           {/* Heading Section */}
-          <div className="mb-8 lg:mb-0">
+          <div className="mb-8 lg:mb-0 lg:ml-10">
             <h1 className="text-2xl sm:text-4xl lg:text-5xl font-medium leading-tight tracking-wide">
               We Shape Visions, <br /> Craft Stories—Through <br /> Design and
               Motion.
             </h1>
-            <p className="text-sm lg:text-[16px]  lg:h-[99px] lg:w-[462px] lg:mt-8  font-medium mt-4 lg:pl-3">
+            <p className="text-sm lg:text-[16px]  lg:h-[99px] lg:w-[462px] lg:mt-8  font-medium mt-4 ">
               We refine your content with expert editing, sound design, and
               visuals, delivering a polished and professional final product.
             </p>
@@ -36,15 +43,15 @@ const Production = () => {
             <Image
               src={postlogo}
               alt="logo"
-              width={663}
-              height={663}
-              className="lg:pt-24"
+              width={612}
+              height={586}
+              className="lg:pt-24 relative lg:right-20"
             />
           </div>
         </div>
       </div>
 
-      <div className="container mx-auto  h-[584px] lg:w-[1341px] mt-56 flex lg:flex-row lg:justify-center flex-col items-center">
+      <div className="container mx-auto  h-[584px] lg:w-[1341px] mt-44 flex lg:flex-row lg:justify-center flex-col items-center">
         <div className="flex flex-col lg:flex-row gap-28 justify-center items-center w-full">
           <div className="w-full max-w-[343px] h-auto bg-gradient-to-b from-[#000000] to-[#393939] text-white shadow-2xl rounded-xl p-4">
             {/* Icon Section */}

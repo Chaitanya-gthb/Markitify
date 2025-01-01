@@ -9,22 +9,30 @@ import call from "@/app/discall.png";
 import sign from "@/app/signature.png";
 import paper from "@/app/paper.png";
 import elements from "@/app/elements.png";
-
+import Frame from "../../../public/Frame.png"
 import Footer from "@/Components/Footer";
 
 const ScheduleCall = () => {
+  const bgStyle = {
+      backgroundImage: `url(${Frame.src})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      height: "700px",
+      width: "100%",
+    };
+
   return (
     <>
       <Navbar />
-      <div className="container p-2 mx-auto backdrop-opacity-10 mt-24 bg-[linear-gradient(to_right,#80808012_3px,transparent_6px),linear-gradient(to_bottom,#80808012_3px,transparent_6px)] bg-[size:66px_66px] bg-center">
+      <div className="container p-2 mx-auto backdrop-opacity-10 mt-16 bg-center" style={bgStyle}>
         <div className="flex lg:flex-row lg:w-full pt-16 lg:justify-between lg:items-center flex-col w-full items-center lg:text-left text-center">
           {/* Heading Section */}
           <div className="mb-8 lg:mb-0">
-            <h1 className="text-4xl sm:text-4xl lg:text-[60px] font-medium lg:w-[640px] lg:h-[146px] leading-tight lg:pl-10">
+            <h1 className="text-3xl sm:text-4xl lg:text-[60px] font-medium lg:w-[700px] lg:h-[146px] leading-tight lg:pl-4">
               Get your personalised{" "}
-              <span className="text-green-400">quotation</span>
+              <span className="text-green-400 relative lg:top-8">quotation</span>
             </h1>
-            <p className="text-[16px] sm:text-[16px] lg:h-[69px] lg:w-[414px] lg:mt-8 font-medium mt-4 mx-4 ml-12 text-[#000000]">
+            <p className="text-[16px] sm:text-[16px] lg:h-[69px] lg:w-[414px] lg:mt-6 font-medium mt-4 mx-4 ml-6 text-[#000000]">
               At Markitify, we offer flexible services and are ready to provide
               additional solutions as per your requirements. Let’s create
               something extraordinary together!
@@ -38,7 +46,7 @@ const ScheduleCall = () => {
               alt="logo"
               width={535}
               height={535}
-              className="lg:pt-24"
+              className="lg:pt-24 relative lg:right-24"
             />
           </div>
         </div>

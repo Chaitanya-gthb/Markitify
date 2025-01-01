@@ -8,19 +8,27 @@ import call from "@/app/discall.png";
 import sign from "@/app/signature.png";
 import paper from "@/app/paper.png";
 import elements from "@/app/elements.png";
-
+import Frame from "../../../public/Frame.png"
 import Footer from "@/Components/Footer";
 
 const SocialPage = () => {
+  const bgStyle = {
+      backgroundImage: `url(${Frame.src})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      height: "700px",
+      width: "100%",
+    };
+
   return (
     <div>
       <Navbar />
 
-      <div className="container mx-auto backdrop-opacity-10 h-[584px] w-full lg:w-[1341px] mt-24 bg-[linear-gradient(to_right,#80808012_3px,transparent_6px),linear-gradient(to_bottom,#80808012_3px,transparent_6px)] bg-[size:66px_66px]">
+      <div className="container mx-auto backdrop-opacity-10 h-[584px] w-full lg:w-[1341px] mt-24" style={bgStyle}>
         <div className="flex lg:flex-row lg:w-full lg:h-[584px]  pt-16 lg:justify-between lg:items-center flex-col w-full items-center lg:text-left text-center ">
           {/* Heading Section */}
           <div className="mb-8 lg:mb-0">
-            <h1 className="text-4xl sm:text-4xl lg:text-6xl font-semibold lg:w-[892px] lg:h-[219px] leading-tight lg:pl-10">
+            <h1 className="text-4xl sm:text-4xl lg:text-6xl font-medium lg:w-[950px] lg:h-[219px] leading-normal lg:pl-6">
               Revolutionizing Feeds, Redefining Connections,Social Media Done
               Right
             </h1>
@@ -32,13 +40,13 @@ const SocialPage = () => {
           </div>
 
           {/* Image Section */}
-          <div className="h-[300px] sm:h-[343px] w-[300px] sm:w-[343px] lg:w-[663px] lg:h-[663px]">
+          <div className="h-[300px] sm:h-[343px] w-[300px] sm:w-[343px] lg:w-[612px] lg:h-[586px]">
             <Image
               src={design}
               alt="logo"
-              width={663}
-              height={663}
-              className="lg:pt-24"
+              width={612}
+              height={586}
+              className="lg:pt-48 lg:absolute lg:right-24"
             />
           </div>
         </div>

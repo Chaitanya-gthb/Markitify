@@ -1,15 +1,23 @@
 import Navbar from "@/Components/Navbar";
 import Image from "next/image";
-
+import Frame from "../../../public/Frame.png"
 import man from "@/app/manriding.png";
 import Footer from "@/Components/Footer";
 
 const AboutPage = () => {
+  const bgStyle = {
+      backgroundImage: `url(${Frame.src})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      height: "700px",
+      width: "100%",
+    };
+
   return (
     <div className="">
       <Navbar />
 
-      <div className="container mx-auto h-[584px] w-full lg:w-[1341px] mt-24 bg-[linear-gradient(to_right,#80808012_3px,transparent_6px),linear-gradient(to_bottom,#80808012_3px,transparent_6px)] bg-[size:66px_66px]">
+      <div className="container mx-auto h-[584px] w-full lg:w-[1341px] mt-16" style={bgStyle}>
         <div className="flex flex-col lg:flex-row lg:w-full pt-16 lg:justify-between lg:items-center items-center text-center lg:text-left">
           {/* Heading Section */}
           <h1 className="text-4xl sm:text-5xl font-bold lg:w-[675px] lg:h-[219px] leading-tight lg:pl-10 mb-6 lg:mb-0">
@@ -19,7 +27,7 @@ const AboutPage = () => {
 
           {/* Image Section */}
           <div className="w-[300px] sm:w-[343px] h-[300px] sm:h-[343px] lg:w-[663px] lg:h-[663px]">
-            <Image src={man} alt="logo" width={663} height={663} />
+            <Image src={man} alt="logo" width={612} height={586} className="lg:mt-24 relative lg:right-20"/>
           </div>
         </div>
       </div>
