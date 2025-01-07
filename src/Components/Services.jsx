@@ -21,7 +21,7 @@ const Services = () => {
   const settings = {
     infinite: false,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
     variableWidth: false, // Ensure cards have equal width
@@ -59,7 +59,7 @@ const Services = () => {
         {/* Cards Slider */}
         <Slider {...settings} ref={sliderRef} className="slider-container">
           {/* Card 1 */}
-          <div className="lg:w-[340px] lg:h-[430px] w-full h-full mx-auto rounded-lg shadow-xl lg:px-8 lg:py-4 p-2 text-left bg-white">
+          <div className="lg:w-[300px] lg:h-[450px] w-full h-full mx-auto rounded-xl shadow-lg lg:px-4 lg:py-4 p-2 text-left bg-white">
             <div className="mb-4">
               {/* Icon */}
               <div className="bg-white shadow-xl w-12 h-12 flex justify-center items-center rounded-lg">
@@ -88,7 +88,7 @@ const Services = () => {
 
           {/* Add more cards similarly */}
           {/* Card 2 */}
-          <div className="lg:w-[340px] lg:h-[430px] w-full h-full mx-auto bg-white rounded-lg shadow-xl lg:px-8 lg:py-4 p-2 text-left">
+          <div className="lg:w-[300px] lg:h-[450px] w-full h-full mx-auto bg-white rounded-xl shadow-lg lg:px-4 lg:py-4 p-2 text-left">
             <div className="mb-4">
               <div className="bg-white shadow-xl w-12 h-12 flex justify-center items-center rounded-lg">
                 <Image src={code} width={29} height={29} alt="code" />
@@ -114,7 +114,7 @@ const Services = () => {
             </ul>
           </div>
 
-          <div className="lg:w-[340px] lg:h-[430px] w-full h-full mx-auto bg-white rounded-lg shadow-lg lg:px-8 lg:py-4 p-2 text-left">
+          <div className="lg:w-[300px] lg:h-[450px] w-full h-full mx-auto bg-white rounded-xl shadow-lg lg:px-4 lg:py-4 p-2 text-left">
             <div className="mb-4">
               <div className="bg-white shadow-xl w-12 h-12 flex justify-center items-center rounded-lg">
                 <Image src={board} width={29} height={29} alt="code" />

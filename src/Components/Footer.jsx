@@ -15,12 +15,12 @@ const Footer = () => {
       <div className="lg:w-[1330px] w-[300px]  h-[2px]  bg-[#A2A2A2] container mx-auto"></div>
       <div className="w-full h-2/5 grid lg:grid-cols-3 lg:grid-rows-1">
         <div className=" hidden lg:block">
-          <Image src={footer} />
+          <Image src={footer} className="lg:mt-8"/>
         </div>
 
         <div className=" flex flex-col">
-          <div className="flex  py-auto justify-evenly  mt-16 lg:mb-16">
-            <div className="font-semibold lg:text-[20px] text-[#818181]">
+          <div className="flex py-auto justify-evenly mt-16 lg:mb-16 relative lg:-left-44 lg:top-16">
+            <div className="font-medium lg:text-[20px] text-[#818181]">
               <Link href={"/about"}>
                 <p className="hover:text-[#302e2e] transition-all duration-300">
                   About
@@ -37,7 +37,7 @@ const Footer = () => {
                 </p>
               </Link>
             </div>
-            <div className="font-semibold lg:text-[20px] text-[#818181]">
+            <div className="font-medium lg:text-[20px] text-[#818181]">
               <Link href={"/"}>
                 <p className="hover:text-[#302e2e] transition-all duration-300">
                   Portfolio
@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className=" flex flex-col items-center justify-end">
+          <div className=" flex flex-col items-center justify-end relative lg:-top-10">
             <div className="flex gap-6 lg:mt-20 mt-10">
               <Image src={insta} width={34} height={34} alt="insta" />
               <Image src={linkdin} width={34} height={34} alt="linkedin" />
@@ -64,13 +64,13 @@ const Footer = () => {
               <Image src={dis} width={34} height={34} alt="insta" />
             </div>
 
-            <p className=" lg:text-[20px] pb-10 font-semibold pt-6">
+            <p className=" lg:text-[20px] pb-10 font-medium pt-6">
               Markitify.in© Copyright 2023 All Rights Reserved
             </p>
           </div>
         </div>
 
-        <div className=" flex flex-col items-center justify-end ">
+        <div className=" flex flex-col items-center justify-end relative lg:-top-10">
           <div className="w-[241px] h-[100px] lg:w-[341px] lg:h-[129px]">
             <Link href={"/"}>
               <Image
@@ -82,8 +82,8 @@ const Footer = () => {
             </Link>
           </div>
 
-          <p className="w-[294px] lg:text-[20px] text-[19px] pb-10 font-semibold">
-            Designed with ❤️ by markitify
+          <p className="w-[320px] lg:text-[20px] text-[19px] pb-10 font-medium">
+            Designed with ❤️ by ma<span className="underline">rkitify </span>
           </p>
         </div>
       </div>

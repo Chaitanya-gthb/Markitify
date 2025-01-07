@@ -20,7 +20,7 @@ const AboutPage = () => {
       <div className="container mx-auto h-[584px] w-full lg:w-[1341px] mt-16" style={bgStyle}>
         <div className="flex flex-col lg:flex-row lg:w-full pt-16 lg:justify-between lg:items-center items-center text-center lg:text-left">
           {/* Heading Section */}
-          <h1 className="text-4xl sm:text-5xl font-bold lg:w-[675px] lg:h-[219px] leading-tight lg:pl-10 mb-6 lg:mb-0">
+          <h1 className="text-4xl sm:text-5xl font-semibold lg:w-[675px] lg:h-[219px] leading-loose lg:pl-10 mb-6 lg:mb-0">
             Beyond Ordinary, Built <br /> by an Extraordinary <br />
             Team!
           </h1>
@@ -39,7 +39,7 @@ const AboutPage = () => {
           <div className="h-1 w-56 lg:w-2 lg:h-48 bg-green-400 rounded-full mb-6 lg:mb-0"></div>
 
           {/* Text */}
-          <p className="font-medium text-base lg:text-[21px] lg:w-[849px] lg:h-[183px] pt-0 lg:pt-16 px-4 w-[400px] lg:leading-8 text-[#000000]">
+          <p className="font-medium text-base lg:text-[21px] lg:w-[849px] lg:h-[183px] pt-0 lg:pt-8 px-4 w-[400px] lg:leading-8 text-[#000000]">
             Markitify started with a clear purpose: to fix what wasn’t working.
             We noticed a gap in the industry—businesses paying too much for
             services that didn’t deliver. Agencies were overpromising,
@@ -52,7 +52,7 @@ const AboutPage = () => {
           <div className="h-1 w-56 lg:w-2 lg:h-48 bg-green-400 rounded-full mb-6 lg:mb-0"></div>
 
           {/* Text */}
-          <p className="font-semibold text-base lg:text-[21px] lg:w-[849px] lg:h-[183px] pt-0 lg:pt-16 px-4 w-[400px] lg:leading-8 text-[#000000]">
+          <p className="font-medium text-base lg:text-[21px] lg:w-[849px] lg:h-[183px] pt-0 lg:pt-8 px-4 w-[400px] lg:leading-8 text-[#000000]">
             Markitify started with a clear purpose: to fix what wasn’t working.
             We noticed a gap in the industry—businesses paying too much for
             services that didn’t deliver. Agencies were overpromising,
@@ -65,7 +65,7 @@ const AboutPage = () => {
           <div className="h-1 w-56 lg:w-2 lg:h-48 bg-green-400 rounded-full mb-6 lg:mb-0"></div>
 
           {/* Text */}
-          <p className="font-semibold text-base lg:text-[21px] lg:w-[849px] lg:h-[183px] pt-0 lg:pt-16 px-4 w-[400px] lg:leading-8 text-[#000000]">
+          <p className="font-medium text-base lg:text-[21px] lg:w-[849px] lg:h-[183px] pt-0 lg:pt-8 px-4 w-[400px] lg:leading-8 text-[#000000]">
             Markitify started with a clear purpose: to fix what wasn’t working.
             We noticed a gap in the industry—businesses paying too much for
             services that didn’t deliver. Agencies were overpromising,
@@ -78,7 +78,7 @@ const AboutPage = () => {
           <div className="h-1 w-56 lg:w-2 lg:h-48 bg-green-400 rounded-full mb-6 lg:mb-0"></div>
 
           {/* Text */}
-          <p className="font-semibold text-base lg:text-[21px] lg:w-[849px] lg:h-[183px] pt-0 lg:pt-16 px-4 w-[400px] lg:leading-8 text-[#000000]">
+          <p className="font-medium text-base lg:text-[21px] lg:w-[849px] lg:h-[183px] pt-0 lg:pt-8 px-4 w-[400px] lg:leading-8 text-[#000000]">
             Markitify started with a clear purpose: to fix what wasn’t working.
             We noticed a gap in the industry—businesses paying too much for
             services that didn’t deliver. Agencies were overpromising,
@@ -91,7 +91,7 @@ const AboutPage = () => {
           <div className="h-1 w-56 lg:w-2 lg:h-48 bg-green-400 rounded-full mb-6 lg:mb-0"></div>
 
           {/* Text */}
-          <p className="font-semibold text-base lg:text-[21px] lg:w-[849px] lg:h-[183px] pt-0 lg:pt-16 px-4 w-[400px] lg:leading-8 text-[#000000]">
+          <p className="font-medium text-base lg:text-[21px] lg:w-[849px] lg:h-[183px] pt-0 lg:pt-8 px-4 w-[400px] lg:leading-8 text-[#000000]">
             Markitify started with a clear purpose: to fix what wasn’t working.
             We noticed a gap in the industry—businesses paying too much for
             services that didn’t deliver. Agencies were overpromising,
@@ -104,7 +104,7 @@ const AboutPage = () => {
           <div className="h-1 w-56 lg:w-2 lg:h-48 bg-green-400 rounded-full mb-6 lg:mb-0"></div>
 
           {/* Text */}
-          <p className="font-semibold text-base lg:text-[21px] lg:w-[849px] lg:h-[183px] pt-0 lg:pt-16 px-4 w-[400px] lg:leading-8 text-[#000000]">
+          <p className="font-medium text-base lg:text-[21px] lg:w-[849px] lg:h-[183px] pt-0 lg:pt-8 px-4 w-[400px] lg:leading-8 text-[#000000]">
             Markitify started with a clear purpose: to fix what wasn’t working.
             We noticed a gap in the industry—businesses paying too much for
             services that didn’t deliver. Agencies were overpromising,

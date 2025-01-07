@@ -38,7 +38,7 @@ const Navbar = () => {
         {/* Button Section */}
         <div className="flex-shrink-0">
           <Link href={"call"}>
-            <button className="w-[120px] sm:w-[140px] lg:py-2 lg:px-4 bg-black text-white lg:rounded-full lg:font-bold lg:text-sm hidden lg:block md:block md:py-2 md:px-4 md:rounded-full md:font-bold md:text-sm animate-bounce">
+            <button className="w-[120px] sm:w-[140px] lg:py-2 lg:px-4 bg-black text-white lg:rounded-full lg:font-bold lg:text-sm hidden lg:block md:block md:py-2 md:px-4 md:rounded-full md:font-bold md:text-sm ">
               Schedule call
             </button>
           </Link>

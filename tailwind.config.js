@@ -72,8 +72,11 @@ module.exports = {
           5: "hsl(var(--chart-5))",
         },
       },
+      clipPath: {
+        polygon: "polygon(50% 0%, 100% 0%, 100% 100%, 0% 50%)",
+      },
     },
     plugins: [],
   },
-  plugins: [require("tailwindcss-animate"),],
+  plugins: [require("tailwindcss-animate")],
 };

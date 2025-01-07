@@ -97,7 +97,7 @@ const ContactandFAQ = () => {
 
           <ul className="lg:max-w-2xl mx-auto lg:mt-16 mt-8 rounded-xl lg:pl-28">
             {faqs.map((faq, index) => (
-              <li key={index} className="mt-4">
+              <li key={index} className="mt-2">
                 <details className="group">
                   <summary className="flex flex-row-reverse lg:flex-row items-center lg:justify-between justify-end gap-3 lg:px-4 lg:py-3 font-bold marker:content-none hover:cursor-pointer">
                     <span className="lg:text-[16px] font-semibold text-[10px] text-white">

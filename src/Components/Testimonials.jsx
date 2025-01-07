@@ -25,7 +25,7 @@ const Testimonials = () => {
       {/* Main Testimonials Wrapper */}
       <div className="lg:flex  lg:flex-row  lg:items-center lg:justify-center ">
         {/* Left Section */}
-        <div className="lg:w-[428px] lg:h-[622px]  lg:block  z-99  lg:shadow-[39px_15px_29px_8px_rgba(0,_0,_0,_0.1)] lg:pt-4  lg:pr-12  lg:font-semibold  text-[10px] lg:text-left font-medium  text-center ">
+        <div className="lg:w-[428px] lg:h-[622px]  lg:block  z-99  lg:shadow-[39px_15px_29px_-10px_rgba(0,_0,_0,_0.05)] lg:pt-4  lg:pr-12  lg:font-semibold  text-[10px] lg:text-left font-medium  text-center ">
           <p className=" lg:text-[14px] font-medium lg:w-[173px] lg:h-[149px] pt-6">
             See what our clients say about our dedication, trust, and results!
           </p>
@@ -61,7 +61,7 @@ const Testimonials = () => {
               .fill(null)
               .map((_, index) => (
                 <SwiperSlide key={index} className="lg:pr-[290px] pr-0">
-                  <div className="flex-shrink-0 relative lg:w-[287px] lg:h-[305px] drop-shadow-xl  bg-white shadow-2xl rounded-xl p-8 my-4 mx-4">
+                  <div className="flex-shrink-0 relative lg:w-[287px] lg:h-[305px] drop-shadow-lg bg-white shadow-lg rounded-xl p-8 my-4 mx-4">
                     {/* Quote Text */}
                     <p className="text-[#263238] lg:text-[12px] text-[10px] lg:mt-3  font-medium leading-relaxed tracking-wider lg:h-[140px] lg:w-[228px]">
                       Markitify has been a great help to Mega Kitchen with their
@@ -93,7 +93,7 @@ const Testimonials = () => {
                     </div>
 
                     {/* Top Quotation Mark */}
-                    <div className="absolute -top-1 left-4 w-8 h-8 bg-white shadow-xl flex items-center justify-center rounded-full shadow-xl">
+                    <div className="absolute top-1 left-4 w-8 h-8 bg-white flex items-center justify-center rounded-full">
                       <Image src={double} width={34} height={32} alt="Quote" />
                     </div>
                   </div>

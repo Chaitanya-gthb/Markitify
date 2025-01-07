@@ -17,12 +17,12 @@ const Portfolio = () => {
             clients.
           </p>
 
-          <button className="px-4 py-1 text-white font-light bg-black rounded-lg mt-8">
+          <button className="px-4 py-1 text-white font-light bg-black rounded-lg mt-8 lg:mr-32">
             Explore
           </button>
         </div>
 
-        <div className=" lg:flex-row flex lg:items-center lg:gap-6 lg:ml-72 lg:w-fit flex-col items-center mt-10 gap-6">
+        <div className=" lg:flex-row flex lg:items-center lg:gap-6 lg:ml-52 lg:w-fit flex-col items-center mt-10 gap-6">
           <Image src={portfolio1} alt="image1" width={460} height={268} className="w-[200px] h-[80px] object-contain lg:w-[460px] lg:h-[268px]"/>
           <div className="flex flex-col gap-4 ">
             <Image src={portfolio2} alt="image2" width={327} height={159} className="w-[200px] h-[80px] object-contain lg:w-[327px] lg:h-[159px]"/>
