@@ -7,7 +7,7 @@ import Link from "next/link";
 const Quotation = () => {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <div className="container mx-auto rounded-2xl  flex px-1  py-8 md:flex-row flex-col-reverse items-center bg-gray-100 mt-24 lg:h-[347px]">
+      <div className="container mx-auto rounded-2xl  flex px-4  py-8 md:flex-row flex-col-reverse items-center bg-gray-100 mt-24 lg:h-[347px]">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center lg:ml-16">
           <h1 className=" lg:text-[30px] font-semibold mb-4 text-[26px]  text-[#000000]">
             Let’s make things happen

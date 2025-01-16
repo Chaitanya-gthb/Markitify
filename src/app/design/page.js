@@ -36,7 +36,7 @@ const bgStyle = {
         <div className="flex lg:flex-row lg:w-full pt-16 lg:justify-between lg:items-center flex-col w-full items-center lg:text-left text-center">
           {/* Heading Section */}
           <div className="mb-8 lg:mb-0">
-            <h1 className="text-4xl sm:text-4xl lg:text-6xl font-medium lg:w-[675px] lg:h-[219px] leading-normal lg:pl-10">
+            <h1 className="text-4xl sm:text-4xl lg:text-6xl font-medium lg:w-[675px] lg:h-[219px] leading-normal lg:pl-10 md:mt-20">
               Where Every Pixel, <br /> Every Line, and Every
               <br /> Idea Matters
             </h1>
@@ -61,7 +61,7 @@ const bgStyle = {
       </div>
 
       <div className="container mx-auto  h-[584px] lg:w-[1341px] mt-56 flex lg:flex-row lg:justify-center lg:gap-10 flex-col gap-12">
-        <div className="w-[343px] h-[510px]  bg-white shadow-2xl rounded-xl p-6 mx-auto">
+        <div className="w-[343px] h-[510px] md:w-[400px] md:h-full bg-white shadow-2xl rounded-xl p-6 mx-auto">
           {/* Icon Section */}
           <div className="flex justify-start mb-4 ">
             <div className="bg-gray-100 p-2 rounded-xl shadow-2xl">
@@ -104,7 +104,7 @@ const bgStyle = {
           </ul>
         </div>
 
-        <div className="lg:w-[440px] lg:h-[580px] w-[343px] h-[480px]  scale-100 mx-auto   bg-[#212121] text-white  shadow-2xl rounded-xl p-6 font-sans">
+        <div className="lg:w-[440px] lg:h-[580px] w-[343px] h-[480px] md:w-[400px] md:h-full scale-100 mx-auto   bg-[#212121] text-white  shadow-2xl rounded-xl p-6 font-sans">
           {/* Icon Section */}
           <div className="flex justify-start mb-4 ">
             <div className="bg-[#5A5A5A] p-2 rounded-xl shadow-2xl">
@@ -139,7 +139,7 @@ const bgStyle = {
           </ul>
         </div>
 
-        <div className="w-[343px] h-[510px] mx-auto   bg-white shadow-2xl rounded-xl p-6 ">
+        <div className="w-[343px] h-[510px] md:w-[400px] md:h-full mx-auto bg-white shadow-2xl rounded-xl p-6 ">
           {/* Icon Section */}
           <div className="flex justify-start mb-4 ">
             <div className="bg-gray-100 p-2 shadow-2xl rounded-xl">
@@ -186,7 +186,7 @@ const bgStyle = {
         <h1 className="text-3xl font-bold text-[#4A4A4A] mb-10 mt-24">
           What you will get
         </h1>
-        <div className="w-full lg:w-[615px] flex flex-col">
+        <div className="w-full md:w-[500px] lg:w-[700px] flex flex-col">
           <div className="flex flex-wrap gap-4 sm:gap-6 justify-center">
             <div className="text-[14px] font-semibold bg-[#F2F2F2] px-4 sm:px-6 py-1 border-2 border-dashed rounded-lg">
               Improved UI
@@ -229,7 +229,7 @@ const bgStyle = {
         </h1>
         <div className="lg:flex lg:flex-row lg:gap-8 flex flex-col gap-6 lg:w-[1183px] w-full lg:h-auto lg:rounded-2xl border-y-4 border-x-4 border-dashed p-6 sm:p-12 justify-center items-center">
           {/* Step 1 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] md:h-full h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image src={call} alt="discover call" width={32} height={32} />
               <h1 className="font-semibold text-lg lg:text-xl">
@@ -244,7 +244,7 @@ const bgStyle = {
           </div>
 
           {/* Step 2 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] md:h-full h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image src={sign} alt="discover call" width={32} height={32} />
               <h1 className="font-semibold text-[14px] sm:text-[16px]">
@@ -259,7 +259,7 @@ const bgStyle = {
           </div>
 
           {/* Step 3 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] md:h-full h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image
                 src={elements}
@@ -279,7 +279,7 @@ const bgStyle = {
           </div>
 
           {/* Step 4 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl drop-shadow-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] md:h-full h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl drop-shadow-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image src={paper} alt="discover call" width={32} height={32} />
               <h1 className="font-semibold text-[14px] sm:text-[16px]">

@@ -28,7 +28,7 @@ const SocialPage = () => {
         <div className="flex lg:flex-row lg:w-full lg:h-[584px]  pt-16 lg:justify-between lg:items-center flex-col w-full items-center lg:text-left text-center ">
           {/* Heading Section */}
           <div className="mb-8 lg:mb-0">
-            <h1 className="text-4xl sm:text-4xl lg:text-6xl font-medium lg:w-[950px] lg:h-[219px] leading-normal lg:pl-6">
+            <h1 className="text-4xl sm:text-4xl lg:text-6xl font-medium lg:w-[950px] lg:h-[219px] leading-normal lg:pl-6 md:mt-20">
               Revolutionizing Feeds, Redefining Connections,Social Media Done
               Right
             </h1>
@@ -53,7 +53,7 @@ const SocialPage = () => {
       </div>
 
       <div className="container mx-auto  h-[584px] lg:w-[1341px] mt-48 flex lg:flex-row lg:justify-center lg:gap-10 flex-col gap-12">
-        <div className="w-[343px] h-[452px]  bg-gradient-to-b from-[#000000] to-[#393939] text-white  shadow-2xl rounded-xl p-6 mx-auto">
+        <div className="w-[343px] h-[452px] md:w-[400px] md:h-full bg-gradient-to-b from-[#000000] to-[#393939] text-white  shadow-2xl rounded-xl p-6 mx-auto">
           {/* Icon Section */}
           <div className="flex justify-start mb-4 ">
             <div className="bg-gray-100 p-3 rounded-full">
@@ -88,7 +88,7 @@ const SocialPage = () => {
           </ul>
         </div>
 
-        <div className="lg:w-[440px] lg:h-[580px] w-[343px] h-[540px]  scale-100 mx-auto   bg-gradient-to-b from-[#000000] to-[#393939] text-white  shadow-2xl rounded-xl p-6 font-sans">
+        <div className="lg:w-[440px] lg:h-[580px] w-[343px] h-[540px] md:w-[400px] md:h-full scale-100 mx-auto   bg-gradient-to-b from-[#000000] to-[#393939] text-white  shadow-2xl rounded-xl p-6 font-sans">
           {/* Icon Section */}
           <div className="flex justify-start mb-4 ">
             <div className="bg-[#5A5A5A] p-3 rounded-full">
@@ -126,7 +126,7 @@ const SocialPage = () => {
           </ul>
         </div>
 
-        <div className="w-[343px] h-[452px]  bg-gradient-to-b from-[#000000] to-[#393939] text-white  shadow-2xl rounded-xl p-6 mx-auto">
+        <div className="w-[343px] h-[452px] md:w-[400px] md:h-full bg-gradient-to-b from-[#000000] to-[#393939] text-white  shadow-2xl rounded-xl p-6 mx-auto">
           {/* Icon Section */}
           <div className="flex justify-start mb-4 ">
             <div className="bg-gray-100 p-3 rounded-full">
@@ -164,7 +164,7 @@ const SocialPage = () => {
         </div>
       </div>
 
-      <div className="lg:w-[924px] lg:h-[46px] container mx-auto mt-32 text-center tracking-wide">
+      <div className="lg:w-[924px] lg:h-[46px] w-full h-full md:w-[600px] md:h-full container mx-auto mt-32 text-center tracking-wide">
         <p className="lg:text-[13px] text-[15px] font-medium lg:mt-0 mt-[1030px] p-8">
           Boost your brand’s social media with Markitify's expert management
           services. Engage audiences, drive growth, and achieve measurable
@@ -176,7 +176,7 @@ const SocialPage = () => {
         <h1 className="text-3xl font-bold text-[#4A4A4A] mb-10">
           What you will get
         </h1>
-        <div className="w-full lg:w-[615px] flex flex-col">
+        <div className="w-full lg:w-[700px] md:w-[500px] flex flex-col">
           <div className="flex flex-wrap gap-4 sm:gap-6 justify-center">
             <div className="text-[14px] font-semibold bg-[#F2F2F2] px-4 sm:px-6 py-1 border-2 border-dashed rounded-lg">
               Graphic design
@@ -213,13 +213,13 @@ const SocialPage = () => {
         </div>
       </div>
 
-      <div className="lg:mt-16 mt-40 mb-10 container mx-auto text-center flex flex-col items-center">
+      <div className="lg:mt-2 mt-40 mb-10 container mx-auto text-center flex flex-col items-center">
         <h1 className="text-2xl lg:text-3xl font-bold text-[#4A4A4A] mb-6">
           Take off in just 4 steps
         </h1>
         <div className="lg:flex lg:flex-row lg:gap-8 flex flex-col gap-6 lg:w-[1183px] w-full lg:h-auto lg:rounded-2xl border-y-4 border-x-4 border-dashed p-6 sm:p-12 justify-center items-center">
           {/* Step 1 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] md:h-full h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image src={call} alt="discover call" width={32} height={32} />
               <h1 className="font-semibold text-lg lg:text-xl">
@@ -234,7 +234,7 @@ const SocialPage = () => {
           </div>
 
           {/* Step 2 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] md:h-full h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image src={sign} alt="discover call" width={32} height={32} />
               <h1 className="font-semibold text-[14px] sm:text-[16px]">
@@ -249,7 +249,7 @@ const SocialPage = () => {
           </div>
 
           {/* Step 3 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] md:h-full h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image
                 src={elements}
@@ -269,7 +269,7 @@ const SocialPage = () => {
           </div>
 
           {/* Step 4 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl drop-shadow-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] md:h-full h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl drop-shadow-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image src={paper} alt="discover call" width={32} height={32} />
               <h1 className="font-semibold text-[14px] sm:text-[16px]">

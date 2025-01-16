@@ -28,11 +28,11 @@ const Production = () => {
         <div className="flex lg:flex-row lg:w-full pt-16 lg:justify-between lg:items-center flex-col w-full items-center lg:text-left text-center">
           {/* Heading Section */}
           <div className="mb-8 lg:mb-0 lg:ml-10">
-            <h1 className="text-2xl sm:text-4xl lg:text-5xl font-medium leading-tight tracking-wide">
+            <h1 className="text-2xl sm:text-4xl lg:text-5xl font-medium leading-tight tracking-wide md:mt-20">
               We Shape Visions, <br /> Craft Stories—Through <br /> Design and
               Motion.
             </h1>
-            <p className="text-sm lg:text-[16px]  lg:h-[99px] lg:w-[462px] lg:mt-8  font-medium mt-4 ">
+            <p className="text-sm lg:text-[16px] lg:h-[99px] lg:w-[462px] lg:mt-8  font-medium mt-4 lg:px-0 md:px-10 ">
               We refine your content with expert editing, sound design, and
               visuals, delivering a polished and professional final product.
             </p>
@@ -52,8 +52,8 @@ const Production = () => {
       </div>
 
       <div className="container mx-auto  h-[584px] lg:w-[1341px] mt-44 flex lg:flex-row lg:justify-center flex-col items-center">
-        <div className="flex flex-col lg:flex-row gap-28 justify-center items-center w-full">
-          <div className="w-full max-w-[343px] h-auto bg-gradient-to-b from-[#000000] to-[#393939] text-white shadow-2xl rounded-xl p-4">
+        <div className="flex flex-col lg:flex-row gap-28 justify-center items-center w-full p-8">
+          <div className="w-full md:w-[400px] md:h-full h-auto bg-gradient-to-b from-[#000000] to-[#393939] text-white shadow-2xl rounded-xl p-4 mx-10">
             {/* Icon Section */}
             <div className="flex justify-start mb-4 ">
               <div className="bg-gray-100 p-3 rounded-full">
@@ -87,7 +87,7 @@ const Production = () => {
             </ul>
           </div>
 
-          <div className="w-full max-w-[343px] h-auto bg-gradient-to-b from-[#000000] to-[#393939] text-white shadow-2xl rounded-xl p-4">
+          <div className="w-full md:w-[400px] md:h-full h-auto bg-gradient-to-b from-[#000000] to-[#393939] text-white shadow-2xl rounded-xl p-4">
             {/* Icon Section */}
             <div className="flex justify-start mb-4 ">
               <div className="bg-[#5A5A5A] p-3 rounded-full">
@@ -121,8 +121,8 @@ const Production = () => {
         </div>
       </div>
 
-      <div className="lg:w-[937px] lg:h-[46px] w-fit h-fit container mx-auto lg:mt-10 text-center tracking-wide">
-        <p className="lg:text-[13px] text-[15px] font-medium relative lg:top-[0px] top-[680px] lg:w-full w-[300px]">
+      <div className="lg:w-[937px] lg:h-[46px] w-fit h-fit container mx-auto lg:mt-40 text-center tracking-wide">
+        <p className="lg:text-[13px] text-[15px] font-medium relative lg:top-[0px] top-[680px] lg:w-full w-[300px] md:w-[460px]">
           Discover Markitify’s expert post-production services, specializing in
           stunning graphic design and professional video editing. Elevate your
           brand with captivating visuals and impactful videos. Contact us today!
@@ -133,7 +133,7 @@ const Production = () => {
         <h1 className="text-[14px] font-bold text-[#4A4A4A] mb-10">
           What you will get
         </h1>
-        <div className="w-full lg:w-[615px] flex flex-col">
+        <div className="w-full lg:w-[700px] flex flex-col">
           <div className="flex flex-wrap gap-6 sm:gap-6 justify-center">
             <div className="text-[14px] font-semibold bg-[#F2F2F2] px-4 sm:px-6 py-1 border-2 border-dashed rounded-lg">
               Creativity
@@ -176,7 +176,7 @@ const Production = () => {
         </h1>
         <div className="lg:flex lg:flex-row lg:gap-8 flex flex-col gap-6 lg:w-[1183px] w-full lg:h-auto lg:rounded-2xl border-y-4 border-x-4 border-dashed p-6 sm:p-12 justify-center items-center">
           {/* Step 1 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image src={call} alt="discover call" width={32} height={32} />
               <h1 className="font-semibold text-lg lg:text-xl">
@@ -191,7 +191,7 @@ const Production = () => {
           </div>
 
           {/* Step 2 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image src={sign} alt="discover call" width={32} height={32} />
               <h1 className="font-semibold text-[14px] sm:text-[16px]">
@@ -206,7 +206,7 @@ const Production = () => {
           </div>
 
           {/* Step 3 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image
                 src={elements}
@@ -226,7 +226,7 @@ const Production = () => {
           </div>
 
           {/* Step 4 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl drop-shadow-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl drop-shadow-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image src={paper} alt="discover call" width={32} height={32} />
               <h1 className="font-semibold text-[14px] sm:text-[16px]">

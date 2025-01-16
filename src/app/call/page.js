@@ -28,7 +28,7 @@ const ScheduleCall = () => {
         <div className="flex lg:flex-row lg:w-full pt-16 lg:justify-between lg:items-center flex-col w-full items-center lg:text-left text-center">
           {/* Heading Section */}
           <div className="mb-8 lg:mb-0">
-            <h1 className="text-3xl sm:text-4xl lg:text-[60px] font-medium lg:w-[700px] lg:h-[146px] leading-tight lg:pl-4">
+            <h1 className="text-3xl sm:text-4xl lg:text-[60px] font-medium lg:w-[700px] lg:h-[146px] leading-tight lg:pl-4 md:mt-20">
               Get your personalised{" "}
               <span className="text-green-400 relative lg:top-8">quotation</span>
             </h1>
@@ -52,9 +52,9 @@ const ScheduleCall = () => {
         </div>
       </div>
 
-      <div className="container p-4 mx-auto bg-[#F2F2F2] shadow-2xl mt-20 lg:w-[1218px] h-auto rounded-2xl flex items-center justify-evenly flex-col lg:flex-row">
+      <div className="container p-4 mx-auto bg-[#F2F2F2] shadow-2xl mt-20 md:px-10 lg:w-[1218px] h-auto rounded-2xl flex items-center justify-evenly flex-col lg:flex-row">
 
-        <div className="w-full lg:w-[590px] h-auto bg-[#1F1F1F] rounded-3xl p-6 sm:p-8 mx-4 sm:mx-6 lg:mx-0">
+        <div className="w-full lg:w-[590px] lg:h-[680px] h-auto bg-[#1F1F1F] rounded-3xl p-6 sm:p-8 mx-4 sm:mx-6 lg:mx-0">
           <div className="flex items-center mt-8 ml-4 gap-4">
             <Image src={callSign} width={50} height={50} />
             <h1 className="text-[#D5D5D5] text-[18px] font-semibold">
@@ -171,7 +171,7 @@ const ScheduleCall = () => {
       </div>
 
       {/* Marketing Text */}
-      <div className="lg:w-[1040px] lg:h-[112px] container mx-auto mt-20 text-center tracking-wider leading-6">
+      <div className="lg:w-[1040px] lg:h-[112px] md:w-[600px] md:h-full container mx-auto mt-20 text-center tracking-wider leading-6">
         <p className="lg:text-[13px] text-[15px] font-medium text-[#4A4A4A] p-8">
           Marketing is the backbone of any successful business, bridging the gap
           between a brand and its audience. It creates awareness, builds trust,
@@ -188,7 +188,7 @@ const ScheduleCall = () => {
         </h1>
         <div className="lg:flex lg:flex-row lg:gap-8 flex flex-col gap-6 lg:w-[1183px] w-full lg:h-auto lg:rounded-2xl border-y-4 border-x-4 border-dashed p-6 sm:p-12 justify-center items-center">
           {/* Step 1 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image src={call} alt="discover call" width={32} height={32} />
               <h1 className="font-semibold text-lg lg:text-xl">
@@ -203,7 +203,7 @@ const ScheduleCall = () => {
           </div>
 
           {/* Step 2 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image src={sign} alt="discover call" width={32} height={32} />
               <h1 className="font-semibold text-[14px] sm:text-[16px]">
@@ -218,7 +218,7 @@ const ScheduleCall = () => {
           </div>
 
           {/* Step 3 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image
                 src={elements}
@@ -238,7 +238,7 @@ const ScheduleCall = () => {
           </div>
 
           {/* Step 4 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl drop-shadow-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl drop-shadow-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image src={paper} alt="discover call" width={32} height={32} />
               <h1 className="font-semibold text-[14px] sm:text-[16px]">
