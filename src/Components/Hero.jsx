@@ -37,7 +37,7 @@ const Hero = () => {
 
             {/* Button Section */}
             <div className="flex lg:justify-center lg:items-center items-start justify-center lg:h-full">
-              <button className="bg-black text-white px-4 py-2 rounded-lg text-sm sm:text-base font-medium hover:bg-gray-800 animate-bounce">
+              <button className="bg-black text-white px-4 py-2 rounded-lg text-sm sm:text-base font-medium hover:bg-gray-800">
                 Get the brochure
               </button>
             </div>

@@ -19,7 +19,7 @@ const Quotation = () => {
           </p>
           <div className="flex justify-center">
             <Link href={"call"}>
-              <button className="inline-flex animate-bounce  text-white bg-black  border-0 lg:py-4  lg:px-10 focus:outline-none rounded-xl font-bold  text-base px-4 py-4 ">
+              <button className="inline-flex text-white bg-black  border-0 lg:py-4  lg:px-10 focus:outline-none rounded-xl font-bold  text-base px-4 py-4 ">
                 Get your free Quotation
               </button>
             </Link>

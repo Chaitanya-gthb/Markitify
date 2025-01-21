@@ -17,7 +17,7 @@ import Image from "next/image";
 
 const Testimonials = () => {
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-40 bg-white">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-40 bg-white md:mb-0">
       <h1 className="text-3xl lg:text-[36px] font-semibold  text-center lg:text-left">
         Client Testimonials
       </h1>
