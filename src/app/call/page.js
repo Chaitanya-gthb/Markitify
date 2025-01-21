@@ -9,28 +9,31 @@ import call from "@/app/discall.png";
 import sign from "@/app/signature.png";
 import paper from "@/app/paper.png";
 import elements from "@/app/elements.png";
-import Frame from "../../../public/Frame.png"
+import Frame from "../../../public/Frame.png";
 import Footer from "@/Components/Footer";
 
 const ScheduleCall = () => {
   const bgStyle = {
-      backgroundImage: `url(${Frame.src})`,
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-      height: "700px",
-      width: "100%",
-    };
+    backgroundImage: `url(${Frame.src})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    height: "700px",
+    width: "100%",
+  };
 
   return (
     <>
       <Navbar />
-      <div className="container p-2 mx-auto backdrop-opacity-10 mt-16 bg-center" style={bgStyle}>
+      <div
+        className="container p-2 mx-auto backdrop-opacity-10 mt-16 bg-center"
+        style={bgStyle}
+      >
         <div className="flex lg:flex-row lg:w-full pt-16 lg:justify-between lg:items-center flex-col w-full items-center lg:text-left text-center">
           {/* Heading Section */}
           <div className="mb-8 lg:mb-0">
-            <h1 className="text-3xl sm:text-4xl lg:text-[60px] font-medium lg:w-[700px] lg:h-[146px] leading-tight lg:pl-4">
+            <h1 className="text-3xl sm:text-4xl lg:text-[60px] font-medium lg:w-[700px] lg:h-[146px] leading-tight lg:pl-4 md:mt-20">
               Get your personalised{" "}
-              <span className="text-green-400 relative lg:top-8">quotation</span>
+              <span className="relative lg:top-8">quotation</span>
             </h1>
             <p className="text-[16px] sm:text-[16px] lg:h-[69px] lg:w-[414px] lg:mt-6 font-medium mt-4 mx-4 ml-6 text-[#000000]">
               At Markitify, we offer flexible services and are ready to provide
@@ -52,40 +55,44 @@ const ScheduleCall = () => {
         </div>
       </div>
 
-      <div className="container p-4 mx-auto bg-[#F2F2F2] shadow-2xl mt-20 lg:w-[1218px] h-auto rounded-2xl flex items-center justify-evenly flex-col lg:flex-row">
+      <div className="container p-4 mx-auto bg-[#F2F2F2] shadow-2xl mt-20 md:px-10 lg:w-[1218px] h-auto rounded-2xl flex items-center justify-evenly flex-col lg:flex-row">
 
-        <div className="w-full lg:w-[590px] h-auto bg-[#1F1F1F] rounded-3xl p-6 sm:p-8 mx-4 sm:mx-6 lg:mx-0">
+        <div className="w-full lg:w-[600px] lg:h-[670px] h-auto bg-[#1F1F1F] rounded-3xl p-6 sm:p-8 mx-4 sm:mx-6 lg:mx-0">
           <div className="flex items-center mt-8 ml-4 gap-4">
-            <Image src={callSign} width={50} height={50} />
-            <h1 className="text-[#D5D5D5] text-[18px] font-semibold">
-              Request Your Custom Quotation
-            </h1>
-          </div>
-          <p className="text-[#FFFFFF] font-medium text-[14px] mt-6 tracking-wider leading-6">
-            Our quotation section is designed to make the process seamless and
-            straightforward for you. By answering a few key questions about your
-            company and project needs, you help us understand your vision,
-            goals, and specific requirements.
-          </p>
-          <p className="text-[#FFFFFF] font-medium text-[14px] mt-4 tracking-wider leading-6">
-            Once you submit the form, our team will carefully review your
-            responses and craft a detailed, transparent quotation tailored to
-            your needs. Within 24-48 hours, you’ll receive a clear plan
-            outlining the scope, deliverables, and costs.
-          </p>
-          <p className="text-[#FFFFFF] font-medium text-[14px] mt-4 tracking-wider leading-6">
-            Need to discuss your project further? You can arrange a meeting with
-            us at your convenience by simply picking a date using our date
-            picker tool.
-          </p>
-          <div className="mt-4">
-            <button className="w-[157px] h-[34px] bg-[#D5D5D5] text-[#000000] py-2 px-2 flex justify-center items-center rounded-lg">
-              Schedule Meet
-            </button>
+            <Image
+              src={callSign} // Ensure this variable holds the correct path to your icon/image
+              alt="Icon"
+              className="w-[50px] h-[50px] relative lg:-top-[270px] md:-top-[220px] -top-[355px]"
+            />
+            <div>
+              <h1 className="text-[#D5D5D5] text-[18px] font-semibold">
+                Request Your Custom Quotation
+              </h1>
+              <p className="text-[#FFFFFF] font-medium text-[14px] mt-6 tracking-wider leading-loose">
+                Our quotation section is designed to make the process seamless
+                and straightforward for you. By answering a few key questions
+                about your company and project needs, you help us understand
+                your vision, goals, and specific requirements.
+              </p>
+              <p className="text-[#FFFFFF] font-medium text-[14px] mt-4 tracking-wider leading-loose lg:mt-10">
+                Once you submit the form, our team will carefully review your
+                responses and craft a detailed, transparent quotation tailored
+                to your needs. Within 24-48 hours, you’ll receive a clear plan
+                outlining the scope, deliverables, and costs.
+              </p>
+              <p className="text-[#FFFFFF] font-medium text-[14px] mt-4 tracking-wider leading-loose lg:mt-10">
+                Need to discuss your project further? You can arrange a meeting
+                with us at your convenience by simply picking a date using our
+                date picker tool.
+              </p>
+              <div className="mt-8 flex justify-start">
+                <button className="w-[157px] h-[34px] bg-[#D5D5D5] text-[#000000] py-2 px-2 flex justify-center items-center rounded-lg">
+                  Schedule Meet
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-
-
 
         <div className="w-full lg:w-[590px] h-auto p-4 mt-8 lg:mt-0">
           <div className="flex flex-col gap-4">
@@ -108,7 +115,9 @@ const ScheduleCall = () => {
             </div>
 
             <div className="flex flex-col gap-1">
-              <label className="font-semibold text-[16px]">Company /Brand Name?</label>
+              <label className="font-semibold text-[16px]">
+                Company /Brand Name?
+              </label>
               <input
                 type="text"
                 placeholder="Apple computers"
@@ -117,7 +126,9 @@ const ScheduleCall = () => {
             </div>
 
             <div className="flex flex-col gap-1">
-              <label className="font-semibold text-[16px]">Where we can find more about you?</label>
+              <label className="font-semibold text-[16px]">
+                Where we can find more about you?
+              </label>
               <input
                 type="text"
                 placeholder="Apple.com / linkedin-apple"
@@ -126,7 +137,9 @@ const ScheduleCall = () => {
             </div>
 
             <div className="flex flex-col gap-1">
-              <label className="font-semibold text-[16px]">What services are you looking for?</label>
+              <label className="font-semibold text-[16px]">
+                What services are you looking for?
+              </label>
               <input
                 type="text"
                 placeholder="Design and development / Brand Identity"
@@ -135,7 +148,9 @@ const ScheduleCall = () => {
             </div>
 
             <div className="flex flex-col gap-1">
-              <label className="font-semibold text-[16px]">What specific features or elements are you expecting?</label>
+              <label className="font-semibold text-[16px]">
+                What specific features or elements are you expecting?
+              </label>
               <input
                 type="text"
                 placeholder="want to improve identity and modern webpage"
@@ -144,7 +159,9 @@ const ScheduleCall = () => {
             </div>
 
             <div className="flex flex-col gap-1">
-              <label className="font-semibold text-[16px]">What is your budget range?</label>
+              <label className="font-semibold text-[16px]">
+                What is your budget range?
+              </label>
               <input
                 type="text"
                 placeholder="20k - 80k"
@@ -153,7 +170,9 @@ const ScheduleCall = () => {
             </div>
 
             <div className="flex flex-col gap-1">
-              <label className="font-semibold text-[16px]">Explain more about the project / goal?</label>
+              <label className="font-semibold text-[16px]">
+                Explain more about the project / goal?
+              </label>
               <input
                 type="text"
                 placeholder="We don’t have identity in market and want build strong identity and presence."
@@ -161,8 +180,8 @@ const ScheduleCall = () => {
               />
             </div>
 
-            <div className="mt-5">
-              <button className="w-full h-[34px] bg-[#1F1F1F] font-semibold text-[16px] text-[#FFFFFF] rounded-lg py-1">
+            <div className="mt-2">
+              <button className="w-auto h-[34px] bg-[#1F1F1F] font-semibold text-[16px] text-[#FFFFFF] rounded-lg py-2 px-8">
                 Submit
               </button>
             </div>
@@ -171,7 +190,7 @@ const ScheduleCall = () => {
       </div>
 
       {/* Marketing Text */}
-      <div className="lg:w-[1040px] lg:h-[112px] container mx-auto mt-20 text-center tracking-wider leading-6">
+      <div className="lg:w-[1040px] lg:h-[112px] md:w-[600px] md:h-full container mx-auto mt-20 text-center tracking-wider leading-6">
         <p className="lg:text-[13px] text-[15px] font-medium text-[#4A4A4A] p-8">
           Marketing is the backbone of any successful business, bridging the gap
           between a brand and its audience. It creates awareness, builds trust,
@@ -181,14 +200,13 @@ const ScheduleCall = () => {
         </p>
       </div>
 
-
       <div className="lg:mt-36  mt-40 mb-16 container mx-auto text-center flex flex-col items-center">
         <h1 className="text-2xl lg:text-3xl font-bold text-[#4A4A4A] mb-10">
           Take off in just 4 steps
         </h1>
         <div className="lg:flex lg:flex-row lg:gap-8 flex flex-col gap-6 lg:w-[1183px] w-full lg:h-auto lg:rounded-2xl border-y-4 border-x-4 border-dashed p-6 sm:p-12 justify-center items-center">
           {/* Step 1 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image src={call} alt="discover call" width={32} height={32} />
               <h1 className="font-semibold text-lg lg:text-xl">
@@ -203,7 +221,7 @@ const ScheduleCall = () => {
           </div>
 
           {/* Step 2 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image src={sign} alt="discover call" width={32} height={32} />
               <h1 className="font-semibold text-[14px] sm:text-[16px]">
@@ -218,7 +236,7 @@ const ScheduleCall = () => {
           </div>
 
           {/* Step 3 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image
                 src={elements}
@@ -238,7 +256,7 @@ const ScheduleCall = () => {
           </div>
 
           {/* Step 4 */}
-          <div className="w-[300px] sm:w-[260px] h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl drop-shadow-2xl p-4">
+          <div className="w-[300px] sm:w-[260px] md:w-[400px] h-auto max-h-[200px] bg-[#212121] text-[#D5D5D5] rounded-2xl drop-shadow-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
               <Image src={paper} alt="discover call" width={32} height={32} />
               <h1 className="font-semibold text-[14px] sm:text-[16px]">
