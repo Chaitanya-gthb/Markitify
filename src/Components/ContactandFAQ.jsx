@@ -54,7 +54,7 @@ const ContactandFAQ = () => {
             Contact
           </h2>
 
-          <div className="lg:mt-20 flex mt-10 gap-10 ml-20">
+          <div className="lg:mt-20 flex mt-10 gap-10 ml-20 text-left">
             <div className="w-[2px] rounded-full lg:h-80 bg-green-400 h-36"></div>
 
             <div className="flex flex-col">
@@ -78,14 +78,14 @@ const ContactandFAQ = () => {
                   alt="Instagram"
                   width={33}
                   height={33}
-                  className="bg-transparent rounded-xl"
+                  className="bg-transparent rounded-xl w-full h-full"
                 />
                 <Image
                   src={linkdin}
                   alt="LinkedIn"
                   width={33}
                   height={33}
-                  className="bg-transparent rounded-xl"
+                  className="bg-transparent rounded-xl w-full h-full"
                 />
               </div>
             </div>
