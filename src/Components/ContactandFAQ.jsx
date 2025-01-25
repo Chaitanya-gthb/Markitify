@@ -43,8 +43,8 @@ const ContactandFAQ = () => {
   ];
 
   return (
-    <div className="container mt-20 mb-20 lg:pb-10 pb-20 w-[390px] h-auto mx-auto px-4 sm:px-6 lg:px-10 lg:pt-16 bg-[#1F1F1F] lg:w-[1117px] lg:h-auto rounded-3xl">
-      <div className="flex w-full lg:flex-row lg:justify-between flex-col-reverse">
+    <div className="container mt-20 mb-20 lg:pb-10 pb-20 w-[390px] h-auto mx-auto px-4 sm:px-6 lg:px-10 lg:pt-16 bg-[#1F1F1F] lg:w-[1117px] lg:h-auto rounded-3xl md:w-[600px] md:h-full md:text-center">
+      <div className="flex w-full lg:flex-row lg:justify-between md:justify-between flex-col-reverse">
         {/* Left Side: Contact Us */}
         <div className="lg:w-1/3 lg:mt-0 mt-10">
           <h2 className="text-[#EFE6DA] font-bold text-[15px] lg:text-[30px] text-center">
@@ -119,7 +119,7 @@ const ContactandFAQ = () => {
       </div>
 
       {/* Let's Connect Section */}
-      <div className="w-full flex justify-center items-center lg:py-6 lg:px-6 lg:mt-20 flex-col gap-5 mt-10 relative">
+      <div className="w-full flex justify-center items-center lg:py-6 lg:px-6 md:px-2 lg:mt-20 flex-col gap-5 mt-10 ">
         <h1 className="text-[#EFE6DA] font-bold text-[15px] lg:text-[30px] text-center">
           Let’s connect
         </h1>
@@ -127,7 +127,7 @@ const ContactandFAQ = () => {
           src="https://cal.com/markitify.in/30min?user=markitify.in&duration=30&month=2024-12&layout=month_view&date=2024-12-26"
           title="Cal.com Calendar"
           allowFullScreen
-          className="lg:w-[905px] lg:h-[450px] h-[350px] w-[350px] lg:rounded-3xl lg:shadow-white lg:shadow-2xl shadow-xl rounded-md text-[12px]"
+          className="md:w-[500px] md:h-[500px] lg:w-[905px] lg:h-[450px] h-[350px] w-[350px] lg:rounded-3xl lg:shadow-gray-600 lg:shadow-xl shadow-xl rounded-md text-[12px]"
         ></iframe>
       </div>
     </div>

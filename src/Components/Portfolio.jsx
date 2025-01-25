@@ -1,6 +1,11 @@
 import Image from "next/image";
 import React from "react";
 
+import rec1 from "../app/rec1.png"
+import Rec1 from "../app/Rec1.jpg"
+import Rec14 from "../app/Rec14.jpg"
+import Rec13 from "../app/Rec13.jpg"
+import Rec12 from "../app/Rec12.jpg"
 import portfolio1 from "@/app/portfiolio1.png";
 import portfolio2 from "@/app/portfolio2.jpg";
 import portfolio3 from "@/app/portfolio3.jpg";
@@ -260,9 +265,9 @@ const Portfolio = () => {
         <div className="mt-10 flex flex-wrap justify-center gap-6">
           {/* Mobile: Show only one image */}
           <Image
-            src={portfolio1}
+            src={rec1}
             alt="Portfolio Item 1"
-            className="w-[90%] sm:hidden object-contain"
+            className="w-full sm:hidden object-contain rounded-xl"
             width={460}
             height={268}
           />
@@ -270,14 +275,14 @@ const Portfolio = () => {
           {/* Tablet: Show two images side by side */}
           <div className="hidden md:flex md:flex-row items-center md:gap-4 md:ml-32 md:w-fit sm:hidden lg:hidden md:mt-0 md:relative md:bottom-[84px]">
             <Image
-              src={portfolio1}
+              src={Rec1}
               alt="Portfolio Item 1"
               className="w-[280px] sm:w-[340px] md:w-[390px] md:h-[290px] lg:w-[460px] h-auto object-contain"
               width={460}
               height={268}
             />
             <Image
-              src={portfolio4}
+              src={Rec14}
               alt="Portfolio Item 4"
               className="w-[280px] sm:w-[340px] md:w-[230px] md:h-[230px] lg:w-[460px] h-auto object-contain"
               width={460}
@@ -288,7 +293,7 @@ const Portfolio = () => {
           {/* Desktop: Keep the current layout */}
           <div className="hidden lg:flex lg:flex-row flex-col items-center lg:gap-6 lg:ml-52 lg:w-fit">
             <Image
-              src={portfolio1}
+              src={Rec1}
               alt="Portfolio Item 1"
               className="w-[280px] sm:w-[340px] md:w-[400px] lg:w-[460px] h-auto object-contain"
               width={460}
@@ -296,14 +301,14 @@ const Portfolio = () => {
             />
             <div className="flex flex-col gap-4 w-full sm:w-auto items-center">
               <Image
-                src={portfolio2}
+                src={Rec12}
                 alt="Portfolio Item 2"
                 className="w-[250px] sm:w-[300px] md:w-[340px] lg:w-[327px] h-auto object-contain"
                 width={327}
                 height={159}
               />
               <Image
-                src={portfolio3}
+                src={Rec13}
                 alt="Portfolio Item 3"
                 className="w-[250px] sm:w-[300px] md:w-[340px] lg:w-[327px] h-auto object-contain"
                 width={327}
@@ -311,7 +316,7 @@ const Portfolio = () => {
               />
             </div>
             <Image
-              src={portfolio4}
+              src={Rec14}
               alt="Portfolio Item 4"
               className="w-[250px] sm:w-[300px] md:w-[340px] lg:w-[208px] h-auto object-contain"
               width={208}
