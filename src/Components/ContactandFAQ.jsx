@@ -7,39 +7,42 @@ import Image from "next/image";
 const ContactandFAQ = () => {
   const faqs = [
     {
-      question: "Do you work with small businesses?",
+      question: "Does Markitify work with small businesses?",
       answer:
-        "Yes, we collaborate with small businesses to provide tailored solutions that fit their unique needs and help them grow.",
+      "Yes, we work with businesses of all sizes, including small ones. We provide services that help small businesses grow and build a strong brand presence. "
     },
     {
-      question: "Do you work with small businesses?",
+      question: "How does Markitify manage social media campaigns?  ",
       answer:
-        "Yes, we collaborate with small businesses to provide tailored solutions that fit their unique needs and help them grow.",
+      "We create engaging content, target the right audience, and track performance to improve campaigns. "    },
+    {
+      question: "How long does it take to complete a project with Markitify?",
+      answer:
+      "The timeline depends on the project. Simple tasks take a few days, while bigger projects may take a few weeks.  "    },
+    {
+      question: "How do you ensure the quality of your services?  ",
+      answer:
+      "We focus on quality by working with skilled professionals and reviewing everything before delivery."
     },
     {
-      question: "What’s the onboarding process?",
+      question: "How do I get started with Markitify? ",
       answer:
-        "Our onboarding process starts with a consultation to understand your requirements, followed by a step-by-step integration plan.",
+      "Use the date picker on our website to choose a time that works for you. We’ll connect with you and start from there. "
     },
     {
-      question: "Is there a possibility of offline meetings?",
+      question: "What’s the onboarding process like?  ",
       answer:
-        "Yes, we can arrange offline meetings depending on your location and schedule. Feel free to contact us for details.",
-    },
-    {
-      question: "Is there a possibility of offline meetings?",
-      answer:
-        "Yes, we can arrange offline meetings depending on your location and schedule. Feel free to contact us for details.",
-    },
-    {
-      question: "Is there a possibility of offline meetings?",
-      answer:
-        "Yes, we can arrange offline meetings depending on your location and schedule. Feel free to contact us for details.",
+      "We start by learning about your business, goals, and challenges. Then, we create a strategy that suits your needs.  "
     },{
-      question: "Is there a possibility of offline meetings?",
+      question: "What kind of businesses can benefit from Markitify’s services?",
       answer:
-        "Yes, we can arrange offline meetings depending on your location and schedule. Feel free to contact us for details.",
+      "We work with startups, small businesses, and established brands to help them grow and improve their presence.  "
+    },{
+      question: "What makes Markitify different from other agencies?  ",
+      answer:
+      "We focus on creativity, collaboration, and building strong brands. Our team works closely with clients to bring their vision to life. "
     }
+
   ];
 
   return (
