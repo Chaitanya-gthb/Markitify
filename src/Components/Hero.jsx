@@ -20,7 +20,7 @@ const Hero = () => {
 
           <div className="grid lg:grid-cols-3 lg:gap-4 grid-cols-1 gap-6 ">
             {/* Text Section */}
-            <div className="flex justify-center items-center h-auto lg:h-full">
+            <div className="flex justify-center items-center h-auto lg:h-full lg:mt-10">
               <p className="lg:w-[361px] lg:text-left lg:h-[81px] lg:text-[16px] lg:font-medium text-[12px] sm:text-lg text-center font-sans">
                 Building brands that go beyond the ordinary, <br /> 3 years of serving.
               </p>
@@ -36,7 +36,7 @@ const Hero = () => {
             </div>
 
             {/* Button Section */}
-            <div className="flex lg:justify-center lg:items-center items-start justify-center lg:h-full">
+            <div className="flex lg:justify-center lg:items-center items-start justify-center lg:h-full lg:mt-10">
               <button className="bg-black text-white px-4 py-2 rounded-lg text-sm sm:text-base font-medium hover:bg-gray-800">
                 Get the brochure
               </button>

@@ -23,8 +23,8 @@ const AboutPage = () => {
       >
         <div className="flex flex-col lg:flex-row lg:w-full pt-16 lg:justify-between lg:items-center items-center text-center lg:text-left">
           {/* Heading Section */}
-          <h1 className="text-4xl sm:text-5xl font-semibold lg:w-[675px] lg:h-[219px] leading-loose lg:pl-10 mb-6 lg:mb-0">
-            Beyond Ordinary, Built <br /> by an Extraordinary <br />
+          <h1 className="text-4xl text-left pl-10 sm:text-5xl font-semibold lg:w-[675px] lg:h-[219px] leading-loose lg:pl-10 mb-6 lg:mb-0">
+            Beyond Ordinary, Built by an Extraordinary 
             Team!
           </h1>
 

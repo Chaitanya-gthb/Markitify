@@ -298,7 +298,7 @@ const Services = () => {
               Social Media
             </h3>
             <p className="text-gray-800 text-sm md:text-base mb-2">
-              Building connections through engaging campaigns and audience
+              Building connections through engaging audience campaigns and audience
               interaction.
             </p>
             <Link className="flex justify-center py-6" href={"social"}>
@@ -310,6 +310,7 @@ const Services = () => {
               <li className="mt-2">Youtube</li>
               <li className="mt-2">Instagram 360</li>
               <li className="mt-2">Linkedin</li>
+              <li className="mt-2">Facebook</li>
             </ul>
           </div>
         </Slider>

@@ -33,12 +33,6 @@ const testimonialsData = [
     image: tes2, // Replace with the correct image path
   },
   {
-    text: "Markitify has been a great support for Dineflick with their design and development expertise. They helped us create a platform that is both functional and visually appealing. The team is dedicated, creative, and easy to work with. We’re impressed.",
-    name: "Omkar Patange",
-    position: "Founder Dineflick",
-    image: tes3, // Replace with the correct image path
-  },
-  {
     text: "Thanks to Markitify, Arctic Wtr now has a brand identity that truly reflects our values. Their branding expertise has helped us stand out and build a stronger presence. The team was professional and insightful, and the results speak for themselves!",
     name: "Team Arctic Wtr.",
     position: "Team Arctic Wtr.",

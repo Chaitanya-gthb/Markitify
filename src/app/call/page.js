@@ -31,11 +31,11 @@ const ScheduleCall = () => {
         <div className="flex lg:flex-row lg:w-full pt-16 lg:justify-between lg:items-center flex-col w-full items-center lg:text-left text-center">
           {/* Heading Section */}
           <div className="mb-8 lg:mb-0">
-            <h1 className="text-3xl sm:text-4xl lg:text-[60px] font-medium lg:w-[700px] lg:h-[146px] leading-tight lg:pl-4 md:mt-20">
+            <h1 className="text-3xl text-left pl-10 sm:text-4xl lg:text-[60px] font-medium lg:w-[700px] lg:h-[146px] leading-tight lg:pl-4 md:mt-20">
               Get your personalised{" "}
               <span className="relative lg:top-8">quotation</span>
             </h1>
-            <p className="text-[16px] sm:text-[16px] lg:h-[69px] lg:w-[414px] lg:mt-6 font-medium mt-4 mx-4 ml-6 text-[#000000]">
+            <p className="text-[16px] text-left pl-5 sm:text-[16px] lg:h-[69px] lg:w-[414px] lg:mt-6 font-medium mt-4 mx-4 ml-6 text-[#000000]">
               At Markitify, we offer flexible services and are ready to provide
               additional solutions as per your requirements. Let’s create
               something extraordinary together!

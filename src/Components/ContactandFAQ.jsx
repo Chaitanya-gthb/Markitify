@@ -1,8 +1,9 @@
 import React from "react";
 
-import insta from "@/app/insta.png";
-import linkdin from "@/app/link.png";
+import instaaa from "../app/images/instaaa.webp"
+import link from "../app/images/link2.jpg";
 import Image from "next/image";
+import face from "@/app/facebook.png";
 
 const ContactandFAQ = () => {
   const faqs = [
@@ -72,20 +73,27 @@ const ContactandFAQ = () => {
                 Social
               </div>
 
-              <div className="mt-2 flex lg:gap-6 gap-2 lg:h-[33px] lg:w-[33px] h-[17px] w-[17px]">
+              <div className="mt-2 flex lg:gap-2 gap-2 lg:h-[33px] lg:w-[33px] h-[17px] w-[17px]">
                 <Image
-                  src={insta}
+                  src={instaaa} 
                   alt="Instagram"
                   width={33}
                   height={33}
-                  className="bg-transparent rounded-xl w-full h-full"
+                  className="bg-gray-500 rounded-xl w-full h-full"
                 />
                 <Image
-                  src={linkdin}
+                  src={link}
                   alt="LinkedIn"
                   width={33}
                   height={33}
-                  className="bg-transparent rounded-xl w-full h-full"
+                  className="bg-gray-500 rounded-xl w-full h-full"
+                />
+                <Image
+                  src={face}
+                  alt="Facebook"
+                  width={33}
+                  height={33}
+                  className="bg-gray-500 rounded-xl w-full h-full"
                 />
               </div>
             </div>

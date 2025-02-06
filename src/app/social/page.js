@@ -28,11 +28,11 @@ const SocialPage = () => {
         <div className="flex lg:flex-row lg:w-full lg:h-[584px]  pt-16 lg:justify-between lg:items-center flex-col w-full items-center lg:text-left text-center ">
           {/* Heading Section */}
           <div className="mb-8 lg:mb-0">
-            <h1 className="text-4xl sm:text-4xl lg:text-6xl font-medium lg:w-[950px] lg:h-[219px] leading-normal lg:pl-6 md:mt-20">
+            <h1 className="text-4xl sm:text-4xl lg:text-6xl pl-8 text-left font-medium lg:w-[950px] lg:h-[219px] leading-normal lg:pl-6 md:mt-20">
               Revolutionizing Feeds, Redefining Connections,Social Media Done
               Right
             </h1>
-            <p className="text-sm sm:text-[16px]  lg:h-[69px] lg:w-[450px] lg:mt-8  font-medium mt-4 mx-8">
+            <p className="text-sm sm:text-[16px] text-left lg:h-[69px] lg:w-[450px] lg:mt-8  font-medium mt-4 mx-8">
               We craft engaging strategies and content to elevate your brand,
               foster connections, and drive impactful results across all
               platforms.
@@ -217,7 +217,7 @@ const SocialPage = () => {
         <h1 className="text-2xl lg:text-3xl font-bold text-[#4A4A4A] mb-6">
           Take off in just 4 steps
         </h1>
-        <div className="lg:flex lg:flex-row lg:gap-8 flex flex-col gap-6 lg:w-[1183px] w-400px md:w-[600px] lg:h-auto lg:rounded-2xl border-y-4 border-x-4 border-dashed p-6 sm:p-12 justify-center items-center">
+        <div className="lg:flex lg:flex-row lg:gap-8 flex flex-col gap-6 lg:w-[1183px] w-400px md:w-[500px] lg:h-auto lg:rounded-2xl border-y-4 border-x-4 border-dashed p-6 sm:p-12 justify-center items-center">
           {/* Step 1 */}
           <div className="w-[300px] sm:w-[260px] md:w-[400px] md:h-full h-auto max-h-[200px] bg-white text-black rounded-2xl drop-shadow-2xl p-4">
             <div className="flex justify-start gap-x-4 items-center">
