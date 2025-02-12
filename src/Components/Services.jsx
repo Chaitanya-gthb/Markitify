@@ -197,7 +197,7 @@ const Services = () => {
       {
         breakpoint: 1024, // Tablet-specific settings
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
           variableWidth: false,
         },
@@ -233,7 +233,7 @@ const Services = () => {
         {/* Cards Slider */}
         <Slider {...settings} ref={sliderRef} className="slider-container">
           {/* Card 1 */}
-          <div className="lg:w-[300px] lg:h-[450px] md:w-[260px] md:h-[450px] w-full h-full mx-auto rounded-xl shadow-lg lg:px-10 px-8 md:px-6 lg:py-4 p-2 text-left bg-white">
+          <div className="lg:w-[320px] lg:h-[450px] md:w-[260px] md:h-[450px] w-full h-full mx-auto rounded-xl shadow-lg lg:px-8 px-8 md:px-6 lg:py-4 p-2 text-left bg-white">
             <div className="mb-4">
               {/* Icon */}
               <div className="bg-white shadow-xl w-12 h-12 flex justify-center items-center rounded-lg">
@@ -261,7 +261,7 @@ const Services = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="lg:w-[300px] lg:h-[450px] md:w-[260px] md:h-[450px] w-full h-full mx-auto bg-white rounded-xl shadow-lg lg:px-10 px-8 md:px-6 lg:py-4 p-2 text-left">
+          <div className="lg:w-[320px] lg:h-[450px] md:w-[260px] md:h-[450px] w-full h-full mx-auto bg-white rounded-xl shadow-lg lg:px-8 px-8 md:px-6 lg:py-4 p-2 text-left">
             <div className="mb-4">
               <div className="bg-white shadow-xl w-12 h-12 flex justify-center items-center rounded-lg">
                 <Image src={code} width={29} height={29} alt="code" />
@@ -288,7 +288,7 @@ const Services = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="lg:w-[300px] lg:h-[450px] md:w-[260px] md:h-[450px] w-full h-full mx-auto bg-white rounded-xl shadow-lg lg:px-10 px-8 md:px-6 lg:py-4 p-2 text-left">
+          <div className="lg:w-[320px] lg:h-[450px] md:w-[260px] md:h-[450px] w-full h-full mx-auto bg-white rounded-xl shadow-lg lg:px-8 px-8 md:px-6 lg:py-4 p-2 text-left">
             <div className="mb-4">
               <div className="bg-white shadow-xl w-12 h-12 flex justify-center items-center rounded-lg">
                 <Image src={board} width={29} height={29} alt="board" />
@@ -318,12 +318,17 @@ const Services = () => {
         {/* Dots for navigation */}
         <div className="flex items-center justify-center mt-20">
           <div
-            className="w-6 h-6 bg-white rounded-full cursor-pointer border-4 border-black hover:bg-black hover:border-green-500 transition-all duration-300"
+            className="w-5 h-5 bg-white rounded-full cursor-pointer border-4 border-black hover:bg-white hover:border-black transition-all duration-300"
             onClick={() => sliderRef.current.slickPrev()}
           ></div>
           <div className="w-12 h-1 bg-black"></div>
           <div
-            className="w-6 h-6 bg-white rounded-full cursor-pointer border-4 border-black hover:bg-black hover:border-green-500 transition-all duration-300"
+            className="w-5 h-5 bg-black rounded-full cursor-pointer border-4 border-black hover:bg-white hover:border-black transition-all duration-300"
+            onClick={() => sliderRef.current.slickNext()}
+          ></div>
+           <div className="w-12 h-1 bg-black"></div>
+          <div
+            className="w-5 h-5 bg-black rounded-full cursor-pointer border-4 border-black hover:bg-white hover:border-black transition-all duration-300"
             onClick={() => sliderRef.current.slickNext()}
           ></div>
         </div>

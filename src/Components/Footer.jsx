@@ -12,7 +12,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <div className="lg:w-[1330px] w-[300px]  h-[2px]  bg-[#A2A2A2] container mx-auto"></div>
+      <div className="lg:w-[1330px] w-[300px]  h-[2px]  bg-[#A2A2A2] container relative top-14 mx-auto"></div>
       <div className="w-full h-2/5 grid lg:grid-cols-3 lg:grid-rows-1">
         <div className=" hidden lg:block">
           <Image src={footer} className="lg:mt-8"/>
